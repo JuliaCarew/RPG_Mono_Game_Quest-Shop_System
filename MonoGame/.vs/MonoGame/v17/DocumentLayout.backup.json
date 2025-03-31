@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\RPG_Mono_Game\\MonoGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:15:04.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:14:46.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:14:31.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Map.cs",
               "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Map.cs",
               "RelativeDocumentMoniker": "Map.cs",
               "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAgwC4BAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAgwC4BAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:10:25.943Z",
               "EditorCaption": ""
