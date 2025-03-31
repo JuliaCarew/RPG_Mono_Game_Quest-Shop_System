@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Enemy.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Exit.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Fireball.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Ghost.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Ground.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Heal.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Lightning.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Player.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Spider.png</File>
+    <File>E:/RPG_Mono_Game/MonoGame/Content/Wall.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
