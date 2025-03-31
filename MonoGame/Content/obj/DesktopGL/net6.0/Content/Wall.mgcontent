@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/RPG_Mono_Game/MonoGame/Content/Wall.png</SourceFile>
-  <SourceTime>2025-02-13T07:28:30-04:00</SourceTime>
-  <DestFile>E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Wall.xnb</DestFile>
-  <DestTime>2025-03-31T10:10:22-03:00</DestTime>
+  <SourceFile>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Wall.png</SourceFile>
+  <SourceTime>2025-03-31T10:39:52.5267581-03:00</SourceTime>
+  <DestFile>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Wall.xnb</DestFile>
+  <DestTime>2025-03-31T10:40:19.2326911-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -1,11 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"E:/RPG_Mono_Game/MonoGame/Content/Enemy.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Enemy.xnb","TextureProcessor","Texture2DContent",232,1109,0.2691027
-"E:/RPG_Mono_Game/MonoGame/Content/Exit.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Exit.xnb","TextureProcessor","Texture2DContent",99,1109,0.1185714
-"E:/RPG_Mono_Game/MonoGame/Content/Fireball.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Fireball.xnb","TextureProcessor","Texture2DContent",182,1109,0.1071539
-"E:/RPG_Mono_Game/MonoGame/Content/Ghost.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Ghost.xnb","TextureProcessor","Texture2DContent",189,1109,0.1356565
-"E:/RPG_Mono_Game/MonoGame/Content/Ground.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Ground.xnb","TextureProcessor","Texture2DContent",99,1109,0.0917044
-"E:/RPG_Mono_Game/MonoGame/Content/Heal.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Heal.xnb","TextureProcessor","Texture2DContent",182,1109,0.1232427
-"E:/RPG_Mono_Game/MonoGame/Content/Lightning.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Lightning.xnb","TextureProcessor","Texture2DContent",182,1109,0.1402875
-"E:/RPG_Mono_Game/MonoGame/Content/Player.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Player.xnb","TextureProcessor","Texture2DContent",206,1109,0.3964814
-"E:/RPG_Mono_Game/MonoGame/Content/Spider.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Spider.xnb","TextureProcessor","Texture2DContent",232,1109,0.0942758
-"E:/RPG_Mono_Game/MonoGame/Content/Wall.png","E:/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Wall.xnb","TextureProcessor","Texture2DContent",128,1109,0.123521
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Enemy.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Enemy.xnb","TextureProcessor","Texture2DContent",232,1109,0.1026451
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Exit.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Exit.xnb","TextureProcessor","Texture2DContent",99,1109,0.001328
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Fireball.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Fireball.xnb","TextureProcessor","Texture2DContent",182,1109,0.0009084
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Ghost.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Ghost.xnb","TextureProcessor","Texture2DContent",189,1109,0.000886
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Ground.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Ground.xnb","TextureProcessor","Texture2DContent",99,1109,0.0010275
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Heal.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Heal.xnb","TextureProcessor","Texture2DContent",182,1109,0.0008784
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Lightning.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Lightning.xnb","TextureProcessor","Texture2DContent",182,1109,0.0010024
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Player.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Player.xnb","TextureProcessor","Texture2DContent",206,1109,0.0009402
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Spider.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Spider.xnb","TextureProcessor","Texture2DContent",232,1109,0.0010311
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Wall.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Wall.xnb","TextureProcessor","Texture2DContent",128,1109,0.0010415
