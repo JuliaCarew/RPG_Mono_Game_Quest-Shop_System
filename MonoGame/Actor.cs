@@ -22,7 +22,9 @@ namespace MonoGame
 
         public Map map;
 
-        public HealthSystem healthSystem; 
+        public HealthSystem healthSystem;
+
+        public TurnBasedSystem turnBasedSystem;
         public Actor(Vector2 vector2)
         {
             startPosition = vector2;
@@ -34,6 +36,7 @@ namespace MonoGame
         {
 
             map = Scene.EntitiesOfType<Map>().FirstOrDefault();
+            turnBasedSystem = Scene.FindComponentOfType<TurnBasedSystem>();
             //map.addTile(playerTexture, Transform.Position);
         }
 
@@ -61,6 +64,7 @@ namespace MonoGame
             //Debug.Log("Ended turn");
             isTurn = false;
             WaitForTurn = true;
+            turnBasedSystem.UpdateTurn();
         }
 
         public virtual void UpdateTurn()
@@ -90,6 +94,7 @@ namespace MonoGame
                 Vector2 MoveVector = targetPosition;
                 // moving to the move vector, how long the action is. then what to do after its done
                 this.TweenPositionTo(MoveVector, 1.20f).SetCompletionHandler(action =>{WaitAnimation = false; UpdateTurn();}).Start();
+                
             }
         }
     }

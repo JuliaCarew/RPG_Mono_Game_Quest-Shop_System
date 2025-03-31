@@ -17,6 +17,7 @@ namespace MonoGame
         public InventorySystem inventorySystem;
         public Player(Vector2 vector2) : base(vector2)
         {
+            //this.isTurn = true;
             startPosition = vector2;
             //Position = startPosition;
             Name = "Player";

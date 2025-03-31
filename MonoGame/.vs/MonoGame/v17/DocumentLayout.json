@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\RPG_Mono_Game\\MonoGame\\",
+  "WorkspaceRootPath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\turnbasedsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnbasedsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\rpg_mono_game\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\~shawn_scripts\\~monogamehell\\rpg_mono_game\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,11 +62,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Movement.cs",
+              "RelativeDocumentMoniker": "Movement.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Movement.cs",
+              "RelativeToolTip": "Movement.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:05:48.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ghost.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Ghost.cs",
+              "RelativeDocumentMoniker": "Ghost.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Ghost.cs",
+              "RelativeToolTip": "Ghost.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:37:02.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Spider.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Spider.cs",
+              "RelativeDocumentMoniker": "Spider.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Spider.cs",
+              "RelativeToolTip": "Spider.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwFwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:23:28.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:22:58.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TurnManager.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\TurnManager.cs",
+              "RelativeDocumentMoniker": "TurnManager.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\TurnManager.cs",
+              "RelativeToolTip": "TurnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:12:24.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Actor.cs",
+              "RelativeDocumentMoniker": "Actor.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Actor.cs",
+              "RelativeToolTip": "Actor.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:17:00.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TurnBasedSystem.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\TurnBasedSystem.cs",
+              "RelativeDocumentMoniker": "TurnBasedSystem.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\TurnBasedSystem.cs",
+              "RelativeToolTip": "TurnBasedSystem.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwFAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:12:31.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Program.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Program.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -47,11 +166,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Game1.cs",
-              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Game1.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Game1.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,26 +179,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
               "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:14:31.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Map.cs",
-              "DocumentMoniker": "E:\\RPG_Mono_Game\\MonoGame\\Map.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Map.cs",
               "RelativeDocumentMoniker": "Map.cs",
-              "ToolTip": "E:\\RPG_Mono_Game\\MonoGame\\Map.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AgIAAGsBAAAAAAAAAAAgwC4BAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAYwJwBAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:10:25.943Z",
               "EditorCaption": ""

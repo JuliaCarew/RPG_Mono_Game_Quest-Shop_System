@@ -410,6 +410,7 @@ namespace MonoGame
             {
                 Scene.AddEntity(item);
             }
+            turnBasedSystem.UpdateTurn();
         }
     }
 }

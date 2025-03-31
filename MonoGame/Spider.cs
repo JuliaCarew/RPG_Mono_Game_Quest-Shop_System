@@ -43,7 +43,6 @@ namespace MonoGame
             List<Point> walls = GetWalls();
             AstarGridGraph grid = new AstarGridGraph(500, 500);
 
-
             //If the enemy x is the same as the players
             if (entityPosition.X == playerPosition.X)
             {
@@ -53,14 +52,14 @@ namespace MonoGame
                     //If a wall is in signt before player return
                     if (walls.Contains(new Point(entityPosition.X, y)))
                     {
-                        return;
+                        entity.EndTurn();
                     }
                 }
                 for (int y = entityPosition.Y - 1; y > playerPosition.Y; y--)
                 {
                     if (walls.Contains(new Point(entityPosition.X, y)))
                     {
-                        return;
+                        entity.EndTurn();
                     }
                 }
                 //If we never hit a wall they attack
@@ -74,14 +73,14 @@ namespace MonoGame
                 {
                     if (walls.Contains(new Point(x, entityPosition.Y)))
                     {
-                        return;
+                        entity.EndTurn();
                     }
                 }
                 for (int x = entityPosition.X - 1; x > playerPosition.X; x--)
                 {
                     if (walls.Contains(new Point(x, entityPosition.Y)))
                     {
-                        return;
+                        entity.EndTurn();
                     }
                 }
                 //If we never hit a wall they attack
@@ -89,7 +88,11 @@ namespace MonoGame
                 //player.healthSystem.TakeDamage(1);
                 Debug.Log("I see the player");
             }
-            entity.EndTurn();
+            else
+            {
+                entity.EndTurn();
+            }
+            
         }
     }
 }

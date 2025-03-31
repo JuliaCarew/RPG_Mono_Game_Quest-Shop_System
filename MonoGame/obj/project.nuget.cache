@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lw42DmNcFyI=",
+  "dgSpecHash": "Pa9w9e8ZuQM=",
   "success": true,
-  "projectFilePath": "E:\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
+  "projectFilePath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W0453579\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\W0453579\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
