@@ -58,7 +58,7 @@ namespace MonoGame
                 if (nextStep == playerPosition)
                 {
                     Debug.Log("Player is next step");
-                    return;
+                    entity.Attack(player);
                 }
 
                 targetPosition = new Vector2(nextStep.X, nextStep.Y);

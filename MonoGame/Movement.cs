@@ -94,7 +94,6 @@ namespace MonoGame
                     break;
                 case 4: // Enemy
                     Debug.Log("Enemy!!!!!!!!!!!!!!!");
-                    tilePosition = targetPosition;
                     break;
             }
             entity.Move( tilePosition * 16);

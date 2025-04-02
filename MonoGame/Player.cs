@@ -17,17 +17,18 @@ namespace MonoGame
         public InventorySystem inventorySystem;
         public Player(Vector2 vector2) : base(vector2)
         {
-            //this.isTurn = true;
+            healthSystem.health = 100;
             startPosition = vector2;
             //Position = startPosition;
             Name = "Player";
+            
             AddComponent(new PlayerMovement(this));
             AddComponent(new InventorySystem(this));
+            
         }
 
         public override void OnAddedToScene()
         {
-            Scene.Camera.SetPosition(this.Position);
             LoadTexture("Player");
 
             inventorySystem = GetComponent<InventorySystem>();

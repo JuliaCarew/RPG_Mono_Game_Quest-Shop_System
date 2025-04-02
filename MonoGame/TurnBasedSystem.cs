@@ -77,7 +77,7 @@ namespace MonoGame
             else
             {
                 Debug.Log("order is greater than actors count");
-                order = 1;
+                order = 0;
                 UpdateTurn();
             }
         }

@@ -25,18 +25,25 @@ namespace MonoGame
         public HealthSystem healthSystem;
 
         public TurnBasedSystem turnBasedSystem;
+
+        public BoxCollider boxCollider;
         public Actor(Vector2 vector2)
         {
             startPosition = vector2;
             AddComponent(new HealthSystem());
+
+            healthSystem = GetComponent<HealthSystem>();
+            AddComponent(new UI(this));
+            AddComponent(new BoxCollider().SetSize(16,16));
             
+
         }
 
         public override void OnAddedToScene()
         {
-
             map = Scene.EntitiesOfType<Map>().FirstOrDefault();
             turnBasedSystem = Scene.FindComponentOfType<TurnBasedSystem>();
+            
             //map.addTile(playerTexture, Transform.Position);
         }
 
@@ -57,6 +64,7 @@ namespace MonoGame
             //Debug.Log("Started turn");
             isTurn = true;
             WaitForTurn = false;
+            Scene.Camera.SetPosition(Position);
         }
 
         public virtual void EndTurn()
@@ -95,6 +103,7 @@ namespace MonoGame
                 // moving to the move vector, how long the action is. then what to do after its done
                 this.TweenPositionTo(MoveVector, 1.20f).SetCompletionHandler(action =>{WaitAnimation = false; UpdateTurn();}).Start();
                 
+
             }
         }
     }

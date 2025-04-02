@@ -12,6 +12,7 @@ namespace MonoGame
     {
         public Enemy(Vector2 vector2) : base(vector2)
         {
+            healthSystem.health = 50;
             startPosition = vector2;
             //Position = startPosition;
             Name = "Enemy";
@@ -92,13 +93,14 @@ namespace MonoGame
                 Point nextStep = path[1];
                 if (nextStep == playerPosition)
                 {
-                    Debug.Log("Player is next step");
-                    return;
+                    entity.Attack(player);
                 }
+                else
+                {
+                    targetPosition = new Vector2(nextStep.X, nextStep.Y);
 
-                targetPosition = new Vector2(nextStep.X, nextStep.Y);
-
-                InteractOrMove(targetPosition);
+                    InteractOrMove(targetPosition);
+                }
             }
             else
             {

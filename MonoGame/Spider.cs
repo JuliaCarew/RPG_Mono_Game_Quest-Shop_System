@@ -64,7 +64,7 @@ namespace MonoGame
                 }
                 //If we never hit a wall they attack
                 //player.spriteRenderer.Color = Color.Red;
-                Debug.Log("I see the player");
+                entity.Attack(player);
             }
             else if (entityPosition.Y == playerPosition.Y)
             {
@@ -86,7 +86,7 @@ namespace MonoGame
                 //If we never hit a wall they attack
                 player.spriteRenderer.Color = Color.Red;
                 //player.healthSystem.TakeDamage(1);
-                Debug.Log("I see the player");
+                entity.Attack(player);
             }
             else
             {

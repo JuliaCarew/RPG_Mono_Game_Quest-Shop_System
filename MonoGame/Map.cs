@@ -323,22 +323,22 @@ namespace MonoGame
                             result[tilePosition] = 2; // Exit
                             break;
                         case '@':
-                            result[tilePosition] = 1; // Player
+                            result[tilePosition] = 3; // Player
                             Player player = new Player(tilePosition);
                             turnBasedSystem.AddActor(player);
                             break;
                         case '!':
-                            result[tilePosition] = 1; // Enemy
+                            result[tilePosition] = 4; // Enemy
                             Enemy enemy = new Enemy(tilePosition);
                             turnBasedSystem.AddActor(enemy);
                             break;
                         case 'O':
-                            result[tilePosition] = 1; // Ghost
+                            result[tilePosition] = 5; // Ghost
                             Ghost ghost = new Ghost(tilePosition);
                             turnBasedSystem.AddActor(ghost);
                             break;
                         case '.':
-                            result[tilePosition] = 1; // Spider
+                            result[tilePosition] = 6; // Spider
                             Spider spider = new Spider(tilePosition);
                             turnBasedSystem.AddActor(spider);
                             break;
@@ -383,6 +383,12 @@ namespace MonoGame
                         addTile(groundTexture, tilePosition);
                         break;
                     case 2:
+                        addTile(exitTexture, tilePosition);
+                        break;
+                    case 3:
+                        addTile(exitTexture, tilePosition);
+                        break;
+                    case 4:
                         addTile(exitTexture, tilePosition);
                         break;
                 }
