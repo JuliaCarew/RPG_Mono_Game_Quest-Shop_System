@@ -49,8 +49,6 @@ namespace MonoGame
                 table.SetIsVisible(true);
             }
             table.ParentToLocalCoordinates(entity.Position);
-            
-
 
 
         }

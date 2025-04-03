@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj": {}
+    "C:\\~Shawn's_Things\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj": {}
   },
   "projects": {
-    "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj": {
+    "C:\\~Shawn's_Things\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
+        "projectUniqueName": "C:\\~Shawn's_Things\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
         "projectName": "MonoGame",
-        "projectPath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
+        "projectPath": "C:\\~Shawn's_Things\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
         "packagesPath": "C:\\Users\\W0453579\\.nuget\\packages\\",
-        "outputPath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\MonoGame\\obj\\",
+        "outputPath": "C:\\~Shawn's_Things\\RPG_Mono_Game\\MonoGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\W0453579\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
-                "projectPath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj"
+              "C:\\~Shawn's_Things\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
+                "projectPath": "C:\\~Shawn's_Things\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
+    "C:\\~Shawn's_Things\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+        "projectUniqueName": "C:\\~Shawn's_Things\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
         "projectName": "Nez",
-        "projectPath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+        "projectPath": "C:\\~Shawn's_Things\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
         "packagesPath": "C:\\Users\\W0453579\\.nuget\\packages\\",
-        "outputPath": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\obj\\Nez.MG38\\",
+        "outputPath": "C:\\~Shawn's_Things\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\obj\\Nez.MG38\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

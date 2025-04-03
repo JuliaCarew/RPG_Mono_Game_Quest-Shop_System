@@ -40,6 +40,18 @@ namespace MonoGame
             }
         }
 
+        public Actor GetActor(Vector2 vector2)
+        {
+            foreach (var item in Actors)
+            {
+                if (item.Position == vector2)
+                {
+                    return item;
+                }
+            }
+            return null;
+        }
+
         public void RemoveActor(Actor actor)
         {
             Actors.Remove(actor);
