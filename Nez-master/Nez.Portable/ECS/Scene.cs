@@ -1007,6 +1007,7 @@ namespace Nez
 		/// <param name="entity">The Entity to add</param>
 		public T AddEntity<T>(T entity) where T : Entity
 		{
+			Debug.Log(entity.Name);
 			Insist.IsFalse(Entities.Contains(entity), "You are attempting to add the same entity to a scene twice: {0}", entity);
 			Entities.Add(entity);
 			entity.Scene = this;

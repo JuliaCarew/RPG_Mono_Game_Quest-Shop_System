@@ -15,33 +15,127 @@ namespace MonoGame
         public List<Item> Inventory = new List<Item>();
 
         public InventorySystem inventorySystem;
-        public Player(Vector2 vector2) : base(vector2)
+        public Player()
         {
             healthSystem.health = 100;
-            startPosition = vector2;
             //Position = startPosition;
             Name = "Player";
-            
-            AddComponent(new PlayerMovement(this));
-            AddComponent(new InventorySystem(this));
-            
         }
 
         public override void OnAddedToScene()
         {
-            LoadTexture("Player");
-
+            
+            AddComponent(new PlayerMovement(this));
+            AddComponent(new InventorySystem(this));
             inventorySystem = GetComponent<InventorySystem>();
+            LoadTexture("Player");
+        }
+
+
+        public void AddItem(Item item)
+        {
+            Inventory.Add(item);
+        }
+
+        public override void Death()
+        {
+            if (healthSystem.health == 0)
+            {
+                Debug.Log(Name);
+                Debug.Log("I am dead");
+                turnBasedSystem.RemoveActor(this);
+                Core.Scene = new GameOver();
+            }
         }
     }
 
     public class PlayerMovement: Movement
     {
-        public PlayerMovement(Actor actor)
+        Player player;
+        public PlayerMovement(Player actor)
         {
             entity = actor;
-
+            
             tilePosition = entity.startPosition;
+
+            player = actor;
+        }
+
+        public override void InteractOrMove(Vector2 targetPosition)
+        {
+            Debug.Log(entity.Position);
+            // Get a return from the target position
+            int tile = map.checkTile(targetPosition);
+
+            Point targetPoint = new Point((int)(targetPosition.X * 16), (int)(targetPosition.Y * 16));
+
+            foreach (Point actorPosition in entity.ActorsPosition)
+            {
+                if (targetPoint == actorPosition)
+                {
+                    Actor targetActor = entity.turnBasedSystem.GetActor(targetPosition * 16);
+
+                    if (targetActor != null && targetActor != entity)  // Make sure we're not attacking the player
+                    {
+                        Debug.Log("Actor found attack");
+                        entity.Attack(targetActor);  // Attack the target actor
+                        return;  // Exit after attacking
+                    }
+                }
+            }
+
+            // Process tile-based movement and other interactions
+            switch (tile)
+            {
+                case 0: // Wall
+                    break;
+
+                case 1: // Ground
+                    tilePosition = targetPosition;
+                    break;
+
+                case 2: // Exit
+                    if (Map.instance.enemies.Count == 0)
+                    Map.instance.ReloadMap();
+                    break;
+
+                case 3: // Player (already here)
+                    Debug.Log("Player is already here.");
+                    tilePosition = targetPosition;
+                    break;
+
+                case 4: // Enemy
+                    Debug.Log("Enemy found!");
+                    tilePosition  = targetPosition;
+                    break;
+
+                case 5: // Ghost
+                    Debug.Log("Ghost found!");
+                    tilePosition = targetPosition;
+                    break;
+
+                case 6: // Spider
+                    Debug.Log("Spider found!");
+                    tilePosition = targetPosition;
+                    break;
+
+                case 7: // Health potion
+                    Debug.Log("Healing potion!");
+                    tilePosition = targetPosition;
+                    break;
+
+                case 8: // Fireball scroll
+                    Debug.Log("Fireball scroll!");
+                    tilePosition = targetPosition;
+                    break;
+
+                case 9: // Lightning scroll
+                    Debug.Log("Lightning scroll!");
+                    tilePosition = targetPosition;
+                    break;
+            }
+
+            entity.Move(tilePosition * 16);
         }
     }
 }

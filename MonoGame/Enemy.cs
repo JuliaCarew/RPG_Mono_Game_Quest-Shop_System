@@ -4,16 +4,36 @@ using Nez.Sprites;
 using Nez;
 using Nez.AI.Pathfinding;
 using System.Collections.Generic;
+using System.Linq;
+using System;
 
 
 namespace MonoGame
 {
     public class Enemy : Actor
     {
-        public Enemy(Vector2 vector2) : base(vector2)
+        private int stunCount;
+
+        public bool isStunted
         {
-            healthSystem.health = 50;
-            startPosition = vector2;
+            get
+            {
+                if (stunCount > 0)
+                {
+                    spriteRenderer.Color = Color.Gray;
+                    return true;
+                }
+                else
+                {
+                    spriteRenderer.Color = Color.White;
+                    return false;
+                }
+                
+            }
+        }
+        public Enemy()
+        {
+            healthSystem.health = 2;
             //Position = startPosition;
             Name = "Enemy";
             
@@ -22,8 +42,32 @@ namespace MonoGame
         public override void OnAddedToScene()
         {
             AddComponent(new EnemyMovement(this));
-            Scene.Camera.SetPosition(this.Position);
             LoadTexture("Enemy");
+        }
+
+        public override void EndTurn()
+        {
+            base.EndTurn();
+            stunCount--;
+        }
+
+        public override void TakeDamage(int damage)
+        {
+            stunCount = 3;
+            spriteRenderer.Color = Color.Gray;
+            base.TakeDamage(damage);
+        }
+
+        public override void Death()
+        {
+            if (healthSystem.health == 0)
+            {
+                Debug.Log(Name);
+                Debug.Log("I am dead");
+                Map.instance.enemies.Remove(this);
+                turnBasedSystem.RemoveActor(this);
+                
+            }
         }
     }
 
@@ -31,16 +75,20 @@ namespace MonoGame
     {
         public Actor player;
 
-        public EnemyMovement(Actor actor)
+        public Enemy enemy;
+        
+        public EnemyMovement(Enemy actor)
         {
             entity = actor;
+            enemy = actor;
             tilePosition = entity.startPosition; // Use startPosition (tile-based) for movement
+            
         }
 
         public override void OnAddedToEntity()
         {
             base.OnAddedToEntity();
-            player = (Actor)entity.Scene.FindEntity("Player");
+            
         }
         public List<Point> GetWalls()
         {
@@ -62,11 +110,23 @@ namespace MonoGame
             return walls;
         }
 
+        public override void Update()
+        {
+            if (enemy.isStunted && enemy.isTurn)
+            {
+                entity.EndTurn();
+            }
+            else
+            {
+                base.Update();
+            }
+        }
+
         public override void Controller()
         {
             Vector2 targetPosition = tilePosition;
 
-
+            player = (Player)entity.Scene.FindEntity("Player");
             // Getting tile position for my points 
             Point entityPosition = new Point((int)(entity.Position.X / 16), (int)(entity.Position.Y / 16));
             Point playerPosition = new Point((int)(player.Position.X / 16), (int)(player.Position.Y / 16));
@@ -97,6 +157,7 @@ namespace MonoGame
                 }
                 else
                 {
+                    Debug.Log("Moving towards player");
                     targetPosition = new Vector2(nextStep.X, nextStep.Y);
 
                     InteractOrMove(targetPosition);
@@ -104,10 +165,37 @@ namespace MonoGame
             }
             else
             {
-                targetPosition = player.Position;
+                Debug.Log("Moving towards player cause theres no path");
+                targetPosition = MoveInRandomDirection();
 
                 InteractOrMove(targetPosition);
             }
+        }
+
+        public Vector2 MoveInRandomDirection()
+        {
+            System.Random rng = new System.Random();
+            int rngMove = rng.Next(0, 4);
+
+            Vector2 move = tilePosition;
+
+            switch (rngMove)
+            {
+                case 0:// Move Up
+                    move.Y -= 1;
+                    break;
+                case 1:// Move Down
+                    move.Y += 1;
+                    break;
+                case 2:// Move Left
+                    move.X -= 1;
+                    break;
+                case 3:// Move Right
+                    move.X += 1;
+                    break;
+            }
+
+            return move;
         }
     }
 }

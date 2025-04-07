@@ -11,7 +11,7 @@ using System.Collections.Generic;
 
 namespace MonoGame
 {
-    public class Actor : Entity
+    public class Actor : Entity,IUpdatable
     {
         public SpriteRenderer spriteRenderer;
         public Entity TurnManager;
@@ -31,17 +31,15 @@ namespace MonoGame
 
         public TurnBasedSystem turnBasedSystem;
 
-        public BoxCollider boxCollider;
+        public float animationTime;
 
         public List<Point> ActorsPosition = new List<Point>();
-        public Actor(Vector2 vector2)
+        public Actor()
         {
-            startPosition = vector2;
             AddComponent(new HealthSystem());
 
             healthSystem = GetComponent<HealthSystem>();
             AddComponent(new UI(this));
-            AddComponent(new BoxCollider().SetSize(16,16));
         }
 
         public override void OnAddedToScene()
@@ -113,13 +111,22 @@ namespace MonoGame
 
         public virtual void Attack(Actor actor)
         {
-            actor.healthSystem.TakeDamage(1);
+            actor.TakeDamage(1);
             Debug.Log("This actor is being attacked");
             Debug.Log(actor.Name);
             Debug.Log("This is the actor health now");
             Debug.Log(actor.healthSystem.health);
+        }
 
-            EndTurn();
+        public virtual void TakeDamage(int damage)
+        {
+            healthSystem.TakeDamage(damage);
+            Death();
+        }
+
+        public virtual void Death()
+        {
+
         }
 
         public void Move(Vector2 targetPosition)
@@ -130,9 +137,7 @@ namespace MonoGame
                 WaitAnimation = true;
                 Vector2 MoveVector = targetPosition;
                 // moving to the move vector, how long the action is. then what to do after its done
-                this.TweenPositionTo(MoveVector, 1.20f).SetCompletionHandler(action =>{WaitAnimation = false; UpdateTurn();}).Start();
-                
-
+                this.TweenPositionTo(MoveVector, animationTime).SetCompletionHandler(action =>{WaitAnimation = false; UpdateTurn();}).Start();
             }
         }
     }

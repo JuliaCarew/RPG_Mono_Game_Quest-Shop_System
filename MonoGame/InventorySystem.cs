@@ -5,6 +5,7 @@ using Nez.Sprites;
 using Nez;
 using Nez.AI.Pathfinding;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace MonoGame
 {
@@ -19,7 +20,7 @@ namespace MonoGame
 
         public void Update()
         {
-            if (Owner.isTurn && Owner.WaitAnimation)
+            if (Owner.isTurn && !Owner.WaitAnimation)
             {
                 InventoryController();
             }

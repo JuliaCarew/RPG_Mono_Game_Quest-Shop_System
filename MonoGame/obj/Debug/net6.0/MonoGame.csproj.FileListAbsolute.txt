@@ -127,3 +127,46 @@ C:\~Shawn's_Things\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\refint\MonoGame.dll
 C:\~Shawn's_Things\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.pdb
 C:\~Shawn's_Things\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.genruntimeconfig.cache
 C:\~Shawn's_Things\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\ref\MonoGame.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Enemy.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Exit.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Fireball.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Ghost.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Ground.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Heal.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Lightning.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Player.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Spider.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Wall.xnb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\MonoGame.exe
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\MonoGame.deps.json
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\MonoGame.runtimeconfig.json
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\MonoGame.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\MonoGame.pdb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Nez.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Nez.pdb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.csproj.AssemblyReference.cache
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.AssemblyInfoInputs.cache
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.AssemblyInfo.cs
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.csproj.CoreCompileInputs.cache
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.sourcelink.json
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.csproj.Up2Date
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\refint\MonoGame.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.pdb
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.genruntimeconfig.cache
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\ref\MonoGame.dll

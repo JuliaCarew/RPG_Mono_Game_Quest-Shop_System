@@ -15,7 +15,7 @@ namespace MonoGame
     public class Map : Entity
     {
 
-        //public static Map map;
+        public static Map instance;
 
         TurnBasedSystem turnBasedSystem;
 
@@ -33,47 +33,54 @@ namespace MonoGame
 
         private List<Item> ItemsInScene = new List<Item>();
 
+        public List<Enemy> enemies = new List<Enemy>();
+
+        //Player player;
         //AstarGridGraph grid;
 
         Texture2D wallTexture, groundTexture, exitTexture;
 
         public Map()
         {
-            //map = this;
+            instance = this;
             Name = "Map";
             AddPreMadeMaps();
         }
 
         public override void OnAddedToScene()
         {
-            
+           
             //Debug.Log($"{Environment.CurrentDirectory}/../../../Maps/");
+            
 
             turnBasedSystem = Scene.FindComponentOfType<TurnBasedSystem>();
+
 
             wallTexture = Scene.Content.Load<Texture2D>("Wall");
             groundTexture = Scene.Content.Load<Texture2D>("Ground");
             exitTexture = Scene.Content.Load<Texture2D>("Exit");
-
+            
             MapStyle();
 
             AddListToScene();
+            
         }
         public void ReloadMap()
         {
-            foreach (var actor in turnBasedSystem.Actors.ToList())
+            foreach (var item in ItemsInScene)
             {
-                turnBasedSystem.RemoveActor(actor);
+                item.Destroy();
+                
             }
-
-            turnBasedSystem.Actors.Clear();
-
+            ItemsInScene.Clear();
             tileMap.Clear();
 
             // Remove sprite components
             RemoveAllComponents();
 
-            OnAddedToScene();
+            MapStyle();
+
+            AddListToScene();
         }
 
         private void MapStyle()
@@ -98,9 +105,7 @@ namespace MonoGame
             rngX = rng.Next(15, 30);
             rngY = rng.Next(15, 30);
 
-            //grid = new AstarGridGraph(rngX, rngY);
-
-            //Step 1 initializing map
+            //Step 1: initializing map
             for (int x = 0; x < rngX; x++)
             {
                 for (int y = 0; y < rngY; y++)
@@ -115,7 +120,7 @@ namespace MonoGame
             {
                 for (int y = 0; y < rngY; y++)
                 {
-                    //If statement that checks arounf the borders
+                    //If statement that checks around the borders
                     if (x == 0 || y == 0 || x == rngX - 1 || y == rngY - 1)
                     {
                         MapGen[new Vector2(x, y)] = 0;
@@ -124,29 +129,21 @@ namespace MonoGame
             }
 
             //Step 3: Place clusters
-            //Making a amount of clusters equal to the max map count
             int clusterCount = MapGen.Count;
             for (int i = 0; i < clusterCount; i++)
             {
-                //Picking my start x & y for the to start clusters
                 int clusterX = rng.Next(1, rngX - 2);
                 int clusterY = rng.Next(1, rngY - 2);
-
-                //Picking a random width & height for my clusters
                 int clusterWidth = rng.Next(2, 4);
                 int clusterHeight = rng.Next(2, 4);
 
-                //Making a bool to check if i can place
                 bool canPlace = true;
 
-                //Checking a negative space so we can look around the cluster to see if we can place 
-                //The reason being check back 1 space (-1) then forward space (width + 1)
                 for (int x = -1; x < clusterWidth + 1; x++)
                 {
                     for (int y = -1; y < clusterHeight + 1; y++)
                     {
                         Vector2 checkPosition = new Vector2(clusterX + x, clusterY + y);
-                        //If my map has the key position & the value of 0 can place is false
                         if (MapGen.ContainsKey(checkPosition) && MapGen[checkPosition] == 0)
                         {
                             canPlace = false;
@@ -154,7 +151,6 @@ namespace MonoGame
                     }
                 }
 
-                //If we can place doing a for loop with the cluster width / height
                 if (canPlace)
                 {
                     for (int x = 0; x < clusterWidth; x++)
@@ -162,7 +158,6 @@ namespace MonoGame
                         for (int y = 0; y < clusterHeight; y++)
                         {
                             Vector2 ClusterPosition = new Vector2(clusterX + x, clusterY + y);
-
                             MapGen[ClusterPosition] = 0;
                         }
                     }
@@ -170,26 +165,41 @@ namespace MonoGame
             }
 
             bool playerPlaced = false;
+            Vector2 playerPosition = Vector2.Zero;
 
-            //Running a while loop untill my player is placed
+            //Is the player placed
             while (!playerPlaced)
             {
-                //Picking a random stop within my map
                 int playerX = rng.Next(1, rngX - 2);
                 int playerY = rng.Next(1, rngY - 2);
                 Vector2 checkPosition = new Vector2(playerX, playerY);
 
-                // if my map 
                 if (MapGen[checkPosition] == 1)
                 {
-                    Player player = new Player(checkPosition);
-                    turnBasedSystem.AddActor(player);
+                    MapGen[checkPosition] = 3;
+                    playerPosition = checkPosition;
                     playerPlaced = true;
                 }
             }
 
-            int EnemyCount = rng.Next(2, 4);
+            // A method to see if the position we want if to close to the target position
+            bool IsTooClose(Vector2 position, Vector2 targetPosition)
+            {
+                for (int x = -1; x <= 1; x++)
+                {
+                    for (int y = -1; y <= 1; y++)
+                    {
+                        Vector2 checkPosition = new Vector2(position.X + x, position.Y + y);
+                        if (checkPosition == targetPosition)
+                        {
+                            return true;//returns true if too close
+                        }
+                    }
+                }
+                return false;
+            }
 
+            int EnemyCount = rng.Next(1, 3);
             for (int EnemyPlaced = 0; EnemyPlaced < EnemyCount; EnemyPlaced++)
             {
                 bool enemyPlaced = false;
@@ -197,75 +207,68 @@ namespace MonoGame
                 {
                     int enemyX = rng.Next(2, rngX - 2);
                     int enemyY = rng.Next(2, rngY - 2);
-                    Vector2 checkPosition = new Vector2(enemyX, enemyY);
+                    Vector2 enemyPosition = new Vector2(enemyX, enemyY);
 
-                    if (MapGen.ContainsKey(checkPosition) && MapGen[checkPosition] == 1)
+                    if (MapGen[enemyPosition] == 1 && !IsTooClose(enemyPosition, playerPosition))
                     {
-                        Enemy enemy = new Enemy(checkPosition);
-                        turnBasedSystem.AddActor(enemy);
+                        MapGen[enemyPosition] = 4;
                         enemyPlaced = true;
                     }
                 }
             }
 
-            int GhostCount = rng.Next(1, 3);
-
-            for (int EnemyPlaced = 0; EnemyPlaced < EnemyCount; EnemyPlaced++)
+            // Repeat the same for Ghost and Spider
+            int GhostCount = rng.Next(1, 2);
+            for (int EnemyPlaced = 0; EnemyPlaced < GhostCount; EnemyPlaced++)
             {
                 bool GhostPlaced = false;
                 while (!GhostPlaced)
                 {
                     int enemyX = rng.Next(2, rngX - 2);
                     int enemyY = rng.Next(2, rngY - 2);
-                    Vector2 checkPosition = new Vector2(enemyX, enemyY);
+                    Vector2 enemyPosition = new Vector2(enemyX, enemyY);
 
-                    if (MapGen.ContainsKey(checkPosition) && MapGen[checkPosition] == 1)
+                    if (MapGen[enemyPosition] == 1 && !IsTooClose(enemyPosition, playerPosition))
                     {
-                        Ghost ghost = new Ghost(checkPosition);
-                        turnBasedSystem.AddActor(ghost);
+                        MapGen[enemyPosition] = 5;
                         GhostPlaced = true;
                     }
                 }
             }
 
-
             int SpiderCount = rng.Next(1, 2);
-
-            for (int EnemyPlaced = 0; EnemyPlaced < EnemyCount; EnemyPlaced++)
+            for (int EnemyPlaced = 0; EnemyPlaced < SpiderCount; EnemyPlaced++)
             {
                 bool SpiderPlaced = false;
                 while (!SpiderPlaced)
                 {
                     int enemyX = rng.Next(2, rngX - 2);
                     int enemyY = rng.Next(2, rngY - 2);
-                    Vector2 checkPosition = new Vector2(enemyX, enemyY);
+                    Vector2 enemyPosition = new Vector2(enemyX, enemyY);
 
-                    if (MapGen.ContainsKey(checkPosition) && MapGen[checkPosition] == 1)
+                    if (MapGen[enemyPosition] == 1 && !IsTooClose(enemyPosition, playerPosition))
                     {
-                        Spider spider = new Spider(checkPosition);
-                        turnBasedSystem.AddActor(spider);
+                        MapGen[enemyPosition] = 6;
                         SpiderPlaced = true;
                     }
                 }
             }
 
-
-
+            // Placing exit door
             bool exitPlaced = false;
             while (!exitPlaced)
             {
-                // Picking a random start X & Y for the door placement
                 int doorX = rng.Next(1, rngX - 2);
                 int doorY = rng.Next(1, rngY - 2);
-
                 Vector2 checkPosition = new Vector2(doorX, doorY);
 
-                if (MapGen.ContainsKey(checkPosition) && MapGen[checkPosition] == 1)
+                if (MapGen[checkPosition] == 1)
                 {
                     MapGen[checkPosition] = 2;
                     exitPlaced = true;
                 }
             }
+
             return MapGen;
         }
 
@@ -286,7 +289,7 @@ namespace MonoGame
             }
             else
             {
-                return -1; // Return a default value 
+                return 0; // Return a default value 
             }
         }
 
@@ -324,41 +327,25 @@ namespace MonoGame
                             break;
                         case '@':
                             result[tilePosition] = 3; // Player
-                            Player player = new Player(tilePosition);
-                            turnBasedSystem.AddActor(player);
+                            
                             break;
-                        case '!':
+                        case '=':
                             result[tilePosition] = 4; // Enemy
-                            Enemy enemy = new Enemy(tilePosition);
-                            turnBasedSystem.AddActor(enemy);
                             break;
-                        case 'O':
+                        case '$':
                             result[tilePosition] = 5; // Ghost
-                            Ghost ghost = new Ghost(tilePosition);
-                            turnBasedSystem.AddActor(ghost);
                             break;
                         case '.':
                             result[tilePosition] = 6; // Spider
-                            Spider spider = new Spider(tilePosition);
-                            turnBasedSystem.AddActor(spider);
                             break;
                         case '+':
-                            result[tilePosition] = 1; // Health
-                            HealingPotion potion = new HealingPotion();
-                            potion.tilePosition = tilePosition;
-                            ItemsInScene.Add(potion);
+                            result[tilePosition] = 7; // Health
                             break;
                         case 'F':
-                            result[tilePosition] = 1; // FireBall
-                            ScrollOfFireball fireBall = new ScrollOfFireball();
-                            fireBall.tilePosition = tilePosition;
-                            ItemsInScene.Add(fireBall);
+                            result[tilePosition] = 8; // FireBall
                             break;
                         case 'L':
-                            result[tilePosition] = 1; // Lightninhg 
-                            ScrollOfLightning lightning = new ScrollOfLightning();
-                            lightning.tilePosition = tilePosition;
-                            ItemsInScene.Add(lightning);
+                            result[tilePosition] = 9; // Lightninhg 
                             break;
                     }
                 }
@@ -368,16 +355,15 @@ namespace MonoGame
         }
         public void loadMap()
         {
-            //The result is the return from Text Map
+            // The result is the return from Text Map
             foreach (var Result in tileMap)
             {
-                Vector2 tilePosition = new Vector2(Result.Key.X,Result.Key.Y);
-                //Position = tilePosition;
+                Vector2 tilePosition = new Vector2(Result.Key.X, Result.Key.Y);
+
                 switch (Result.Value)
                 {
                     case 0:
                         addTile(wallTexture, tilePosition);
-                        //spriteRenderer.SetTexture(wallTexture).SetOrigin(Position);
                         break;
                     case 1:
                         addTile(groundTexture, tilePosition);
@@ -386,13 +372,54 @@ namespace MonoGame
                         addTile(exitTexture, tilePosition);
                         break;
                     case 3:
-                        addTile(exitTexture, tilePosition);
+                        Player player = new Player();
+                        player.startPosition = tilePosition;
+                        turnBasedSystem.AddActor(player);
+                        Scene.AddEntity(player);
+                        addTile(groundTexture, tilePosition);
                         break;
                     case 4:
-                        addTile(exitTexture, tilePosition);
+                        Wizard wizard = new Wizard();
+                        wizard.startPosition = tilePosition;
+                        turnBasedSystem.AddActor(wizard);
+                        enemies.Add(wizard);
+                        addTile(groundTexture, tilePosition);
+                        break;
+                    case 5:
+                        Ghost ghost = new Ghost();
+                        ghost.startPosition = tilePosition;
+                        turnBasedSystem.AddActor(ghost);
+                        enemies.Add(ghost);
+                        addTile(groundTexture, tilePosition);
+                        break;
+                    case 6:
+                        Spider spider = new Spider();
+                        spider.startPosition = tilePosition;
+                        turnBasedSystem.AddActor(spider);
+                        enemies.Add(spider);
+                        addTile(groundTexture, tilePosition);
+                        break;
+                    case 7:
+                        HealingPotion potion = new HealingPotion();
+                        potion.tilePosition = tilePosition;
+                        ItemsInScene.Add(potion);
+                        addTile(groundTexture, tilePosition);
+                        break;
+                    case 8:
+                        ScrollOfFireball fireball = new ScrollOfFireball();
+                        fireball.tilePosition = tilePosition;
+                        ItemsInScene.Add(fireball);
+                        addTile(groundTexture, tilePosition);
+                        break;
+                    case 9:
+                        ScrollOfLightning lightning = new ScrollOfLightning();
+                        lightning.tilePosition = tilePosition;
+                        ItemsInScene.Add(lightning);
+                        addTile(groundTexture, tilePosition);
                         break;
                 }
             }
+            
         }
         public void addTile(Texture2D texture, Vector2 position)
         {
@@ -406,7 +433,7 @@ namespace MonoGame
 
         private void AddListToScene()
         {
-            foreach (Actor actor in turnBasedSystem.Actors)
+            foreach (Enemy actor in enemies)
             {
                 Scene.AddEntity(actor);
                 Debug.Log(actor.Name);

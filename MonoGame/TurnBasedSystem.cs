@@ -32,21 +32,25 @@ namespace MonoGame
 
             //UpdateTurn();
         }
-        public void UI()
-        {
-            foreach (var actor in Actors)
-            {
-
-            }
-        }
 
         public Actor GetActor(Vector2 vector2)
         {
-            foreach (var item in Actors)
+            foreach (var actor in Actors)
             {
-                if (item.Position == vector2)
+                if (actor.Position == vector2)
                 {
-                    return item;
+                    return actor;
+                }
+            }
+            return null;
+        }
+        public Actor FindPlayerActor()
+        {
+            foreach (var actor in Actors)
+            {
+                if (actor is Player) // or use a tag system
+                {
+                    return actor;
                 }
             }
             return null;
@@ -67,22 +71,29 @@ namespace MonoGame
                 
                 //Debug.Log("order < Actors.Count started");
                 Actor actorTurn = Actors[order];
-                actorTurn.isTurn = true;
+                
                 Debug.Log("actorTurn");
                 Debug.Log(actorTurn.Name);
-
-                // Start turn if it's this actor's turn
-                if (actorTurn.isTurn)
+                Debug.Log(actorTurn.Position);
+                /*
+                if (Entity != null)
                 {
+                    Camera camera = Entity.Scene.Camera;
+                    camera.Entity.TweenPositionTo(actorTurn.Position, actorTurn.animationTime).Start();
+                }
+                */
+                // Start turn if it's this actor's turn
+                if (!actorTurn.isTurn)
+                {
+                    
                     //Debug.Log("is turn started");
                     actorTurn.StartTurn();
 
                 }
-                //Thread.Sleep(250);
-                //Debug.Log("Hit the bottom");
-
-                
                 order++;
+
+
+
                 Debug.Log(order);
 
             }

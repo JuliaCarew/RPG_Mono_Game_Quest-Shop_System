@@ -11,11 +11,10 @@ using System.Collections.Generic;
 
 namespace MonoGame
 {
-    public class Ghost: Actor
+    public class Ghost: Enemy
     {
-        public Ghost(Vector2 vector2) : base(vector2)
+        public Ghost()
         {
-            startPosition = vector2;
             //Position = startPosition;
             Name = "Ghost";
             
@@ -30,7 +29,7 @@ namespace MonoGame
 
     public class GhostMovement : EnemyMovement
     {
-        public GhostMovement(Actor actor) : base(actor)
+        public GhostMovement(Enemy actor) : base(actor)
         {
             entity = actor;
             tilePosition = entity.startPosition;
@@ -40,7 +39,7 @@ namespace MonoGame
         {
             Vector2 targetPosition = tilePosition;
 
-
+            player = (Player)entity.Scene.FindEntity("Player");
             // Getting tile position for my points 
             Point entityPosition = new Point((int)(entity.Position.X / 16), (int)(entity.Position.Y / 16));
             Point playerPosition = new Point((int)(player.Position.X / 16), (int)(player.Position.Y / 16));
@@ -57,17 +56,18 @@ namespace MonoGame
                 Point nextStep = path[1];
                 if (nextStep == playerPosition)
                 {
-                    Debug.Log("Player is next step");
                     entity.Attack(player);
                 }
+                else
+                {
+                    targetPosition = new Vector2(nextStep.X, nextStep.Y);
 
-                targetPosition = new Vector2(nextStep.X, nextStep.Y);
-
-                InteractOrMove(targetPosition);
+                    InteractOrMove(targetPosition);
+                }
             }
             else
             {
-                targetPosition = player.Position;
+                targetPosition = MoveInRandomDirection();
 
                 InteractOrMove(targetPosition);
             }

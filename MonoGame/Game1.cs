@@ -19,25 +19,11 @@ namespace MonoGame
         protected override void Initialize()
         {
             base.Initialize();
-            //Test
 
-            // Making a new scene with default renderer for background
-            Scene scene = Scene.CreateWithDefaultRenderer(Color.Gray);
-            scene.ClearColor = Color.Black;
+            Scene = new MainMenu();
 
-            TurnManager turnManager = new TurnManager();
-
-
-
-            scene.AddEntity(turnManager);
-            Map map = new Map();
-
-            
-            scene.AddEntity(map);
-            Scene = scene;
         }
 
-        // Player Movement Component
 
     }
 }
