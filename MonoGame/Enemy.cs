@@ -33,7 +33,7 @@ namespace MonoGame
         }
         public Enemy()
         {
-            healthSystem.health = 2;
+            healthSystem.health = 3;
             //Position = startPosition;
             Name = "Enemy";
             
@@ -50,14 +50,13 @@ namespace MonoGame
             base.EndTurn();
             stunCount--;
         }
-
         public override void TakeDamage(int damage)
         {
             stunCount = 3;
             spriteRenderer.Color = Color.Gray;
             base.TakeDamage(damage);
         }
-
+        
         public override void Death()
         {
             if (healthSystem.health == 0)
@@ -167,8 +166,8 @@ namespace MonoGame
             {
                 Debug.Log("Moving towards player cause theres no path");
                 targetPosition = MoveInRandomDirection();
-
-                InteractOrMove(targetPosition);
+                entity.EndTurn();
+                //InteractOrMove(targetPosition);
             }
         }
 

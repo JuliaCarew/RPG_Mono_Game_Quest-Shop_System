@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Nez;
 using Nez.Sprites;
+using Nez.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,16 +18,17 @@ namespace MonoGame
         public InventorySystem inventorySystem;
         public Player()
         {
-            healthSystem.health = 100;
+            healthSystem.health = 5;
             //Position = startPosition;
             Name = "Player";
         }
 
         public override void OnAddedToScene()
         {
-            
+
             AddComponent(new PlayerMovement(this));
             AddComponent(new InventorySystem(this));
+            AddComponent(new PlayerUI(this));
             inventorySystem = GetComponent<InventorySystem>();
             LoadTexture("Player");
         }
@@ -36,7 +38,6 @@ namespace MonoGame
         {
             Inventory.Add(item);
         }
-
         public override void Death()
         {
             if (healthSystem.health == 0)
@@ -49,13 +50,13 @@ namespace MonoGame
         }
     }
 
-    public class PlayerMovement: Movement
+    public class PlayerMovement : Movement
     {
         Player player;
         public PlayerMovement(Player actor)
         {
             entity = actor;
-            
+
             tilePosition = entity.startPosition;
 
             player = actor;
@@ -96,7 +97,7 @@ namespace MonoGame
 
                 case 2: // Exit
                     if (Map.instance.enemies.Count == 0)
-                    Map.instance.ReloadMap();
+                        Map.instance.ReloadMap();
                     break;
 
                 case 3: // Player (already here)
@@ -106,7 +107,7 @@ namespace MonoGame
 
                 case 4: // Enemy
                     Debug.Log("Enemy found!");
-                    tilePosition  = targetPosition;
+                    tilePosition = targetPosition;
                     break;
 
                 case 5: // Ghost
@@ -120,22 +121,72 @@ namespace MonoGame
                     break;
 
                 case 7: // Health potion
+                    player.AddItem((Map.instance.GetItem(targetPosition * 16)));
                     Debug.Log("Healing potion!");
                     tilePosition = targetPosition;
                     break;
 
                 case 8: // Fireball scroll
+                    player.AddItem((Map.instance.GetItem(targetPosition * 16)));
                     Debug.Log("Fireball scroll!");
                     tilePosition = targetPosition;
                     break;
 
                 case 9: // Lightning scroll
+                    player.AddItem((Map.instance.GetItem(targetPosition * 16)));
                     Debug.Log("Lightning scroll!");
                     tilePosition = targetPosition;
                     break;
             }
 
             entity.Move(tilePosition * 16);
+        }
+    }
+    public class PlayerUI : UICanvas
+    {
+        private Player entity;
+        public Table table;
+
+        public PlayerUI(Player actor)
+        {
+            entity = actor;
+
+            Skin skin = Skin.CreateDefaultSkin();
+            table = new Table();
+            Stage.AddElement(table);
+            table.ToFront();
+        }
+
+        public override void OnAddedToEntity()
+        {
+            table.Add(entity.Name);
+            table.Row();
+            table.Add("Health: " + entity.healthSystem.health);
+            table.Row();
+        }
+
+        public override void Update()
+        {
+
+            table.Clear();
+            table.Add("[Inventory]");
+            table.Row();
+
+            if (entity.Inventory.Count == 0)
+            {
+                table.Add("(Empty)");
+                table.Row();
+            }
+            else
+            {
+                foreach (var item in entity.Inventory)
+                {
+                    table.Add(item.ToString());
+                    table.Row();
+                }
+            }
+
+            table.SetPosition(50, 50);
         }
     }
 }

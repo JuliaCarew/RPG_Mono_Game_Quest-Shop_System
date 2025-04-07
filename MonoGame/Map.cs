@@ -35,7 +35,7 @@ namespace MonoGame
 
         public List<Enemy> enemies = new List<Enemy>();
 
-        //Player player;
+        Player player;
         //AstarGridGraph grid;
 
         Texture2D wallTexture, groundTexture, exitTexture;
@@ -65,13 +65,26 @@ namespace MonoGame
             AddListToScene();
             
         }
+        public Item GetItem(Vector2 vector2)
+        {
+            foreach (var item in ItemsInScene)
+            {
+                if (item.Position == vector2)
+                {
+                    return item;
+                }
+            }
+            return null;
+        }
         public void ReloadMap()
         {
+            turnBasedSystem.RemoveActor(player);
             foreach (var item in ItemsInScene)
             {
                 item.Destroy();
                 
             }
+
             ItemsInScene.Clear();
             tileMap.Clear();
 
@@ -372,7 +385,7 @@ namespace MonoGame
                         addTile(exitTexture, tilePosition);
                         break;
                     case 3:
-                        Player player = new Player();
+                        player = new Player();
                         player.startPosition = tilePosition;
                         turnBasedSystem.AddActor(player);
                         Scene.AddEntity(player);

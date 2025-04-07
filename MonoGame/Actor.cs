@@ -11,7 +11,7 @@ using System.Collections.Generic;
 
 namespace MonoGame
 {
-    public class Actor : Entity,IUpdatable
+    public abstract class Actor : Entity, IUpdatable
     {
         public SpriteRenderer spriteRenderer;
         public Entity TurnManager;
@@ -31,24 +31,24 @@ namespace MonoGame
 
         public TurnBasedSystem turnBasedSystem;
 
-        public float animationTime;
+        public float animationTime = .20f;
 
         public List<Point> ActorsPosition = new List<Point>();
         public Actor()
         {
+            healthSystem = GetComponent<HealthSystem>();
+            AddComponent(new UI(this));
             AddComponent(new HealthSystem());
 
             healthSystem = GetComponent<HealthSystem>();
-            AddComponent(new UI(this));
+
         }
 
         public override void OnAddedToScene()
         {
             map = Scene.EntitiesOfType<Map>().FirstOrDefault();
             turnBasedSystem = Scene.FindComponentOfType<TurnBasedSystem>();
-            
         }
-
         public AstarGridGraph Grid()
         {
 
@@ -57,17 +57,16 @@ namespace MonoGame
             foreach (Actor actor in turnBasedSystem.Actors)
             {
                 if (actor != this)
-                ActorsPosition.Add(new Point((int)actor.Position.X, (int)actor.Position.Y));
+                    ActorsPosition.Add(new Point((int)actor.Position.X, (int)actor.Position.Y));
             }
 
             foreach (var item in ActorsPosition)
             {
                 grid.Dirs.Add(item);
             }
-            
+
             return grid;
         }
-
 
         public void LoadTexture(string textureName)
         {
@@ -109,6 +108,7 @@ namespace MonoGame
             }
         }
 
+        public abstract void Death();
         public virtual void Attack(Actor actor)
         {
             actor.TakeDamage(1);
@@ -116,6 +116,9 @@ namespace MonoGame
             Debug.Log(actor.Name);
             Debug.Log("This is the actor health now");
             Debug.Log(actor.healthSystem.health);
+            EndTurn();
+
+
         }
 
         public virtual void TakeDamage(int damage)
@@ -123,12 +126,6 @@ namespace MonoGame
             healthSystem.TakeDamage(damage);
             Death();
         }
-
-        public virtual void Death()
-        {
-
-        }
-
         public void Move(Vector2 targetPosition)
         {
             if (Position != targetPosition)
@@ -137,7 +134,9 @@ namespace MonoGame
                 WaitAnimation = true;
                 Vector2 MoveVector = targetPosition;
                 // moving to the move vector, how long the action is. then what to do after its done
-                this.TweenPositionTo(MoveVector, animationTime).SetCompletionHandler(action =>{WaitAnimation = false; UpdateTurn();}).Start();
+                this.TweenPositionTo(MoveVector, 1.20f).SetCompletionHandler(action => { WaitAnimation = false; UpdateTurn(); }).Start();
+
+
             }
         }
     }
