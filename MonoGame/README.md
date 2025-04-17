@@ -25,5 +25,5 @@ my player and enemy were kinda quick fixes but they work, now the doors I will n
 I didn't have much time in the end for this, but I think I would make a gameobject that holds this system and methods that takes game objects or entity's.
 entity that has something like collider or health system as base component.
 
-# Welp
-I don't know what happend it worked then it didn't and couldn't getting it working again.
+# GameFlow 
+I did fix it and add the visual for enemies getting in stun and they can die aswell as the player. if the player dies you get a bad gameover screen, I didn't have time to add the boss becasue everything broke. On the last day and spent all day trying to fix it which i did in the end. the menus all have working button the game able to restart there is no victory screen just gameover. I didn't have time to test the items that much :\ oh well.  

@@ -1,4 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Boss.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Boss.xnb","TextureProcessor","Texture2DContent",219,1109,0.1112833
 "C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Enemy.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Enemy.xnb","TextureProcessor","Texture2DContent",232,1109,0.0980956
 "C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Exit.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Exit.xnb","TextureProcessor","Texture2DContent",99,1109,0.0012215
 "C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Fireball.png","C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/bin/DesktopGL/Content/Fireball.xnb","TextureProcessor","Texture2DContent",182,1109,0.0010021

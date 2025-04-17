@@ -48,7 +48,7 @@ namespace MonoGame
         {
             foreach (var actor in Actors)
             {
-                if (actor is Player) // or use a tag system
+                if (actor is Player)
                 {
                     return actor;
                 }
@@ -60,6 +60,15 @@ namespace MonoGame
         {
             Actors.Remove(actor);
             actor.Destroy();
+        }
+
+        public void KillAllActor()
+        {
+            for (int i = 0; i < Actors.Count; i++)
+            {
+                Actor actor = Actors[i];
+                actor.Scene.DestroyAllEntities();
+            }
         }
 
         public void UpdateTurn()

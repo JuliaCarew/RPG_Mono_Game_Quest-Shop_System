@@ -31,10 +31,11 @@ namespace MonoGame
             if (Owner.Inventory.Count > 5)
             {
                 Debug.Log("No room for item");
-                return;
             }
             else
             {
+                Debug.Log(Owner.Inventory.Count);
+                item.Owner = Owner;
                 Owner.Inventory.Add(item);
             }
         }
@@ -63,12 +64,12 @@ namespace MonoGame
             }
         }
 
-        private void UseItem(int keyNum)
+        private void UseItem(int Index)
         {
-            if (Owner.Inventory.Count > keyNum)
+            if (Owner.Inventory.Count > Index)
             {
-                Owner.Inventory[keyNum].Use();
-                Owner.Inventory.RemoveAt(keyNum);
+                Owner.Inventory[Index].Use();
+                Owner.Inventory.RemoveAt(Index);
             }
             else
             {

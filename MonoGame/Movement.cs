@@ -74,6 +74,12 @@ namespace MonoGame
                 move.X += 1;
                 //Debug.Log(move);
             }
+            if (Input.IsKeyPressed(Keys.R))
+            {
+                //Debug.Log("Moving Right");
+                map.ReloadMap();
+                //Debug.Log(move);
+            }
 
 
 
@@ -108,27 +114,9 @@ namespace MonoGame
             }
 
 
-
-
-            //Switch case for the tile int
-            switch (tile)
+            if (tile != 0)
             {
-                case 0: // Wall
-                    break;
-                case 1: // Ground
-                        //Debug.Log("Ground");
-                    tilePosition = targetPosition;
-                    break;
-                case 2: // Exit
-                    map.ReloadMap();
-                    break;
-                case 3: // Player
-                    Debug.Log("Player!!!!!!!!!!!!!!!");
-                    tilePosition = targetPosition;
-                    break;
-                case 4: // Enemy
-                    Debug.Log("Enemy!!!!!!!!!!!!!!!");
-                    break;
+                tilePosition = targetPosition;
             }
             entity.Move(tilePosition * 16);
         }

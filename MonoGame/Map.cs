@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Nez;
+using Nez.AI.BehaviorTrees;
+using Nez.AI.GOAP;
 using Nez.AI.Pathfinding;
 using Nez.Sprites;
 using Nez.Textures;
@@ -12,7 +14,7 @@ using System.Linq;
 
 namespace MonoGame
 {
-    public class Map : Entity
+    public class Map : Entity, IUpdatable
     {
 
         public static Map instance;
@@ -29,6 +31,8 @@ namespace MonoGame
 
         int rngY;
 
+        private int lastItem;
+
         private List<string> Maps = new List<string>();
 
         private List<Item> ItemsInScene = new List<Item>();
@@ -40,6 +44,7 @@ namespace MonoGame
 
         Texture2D wallTexture, groundTexture, exitTexture;
 
+        public int Level;
         public Map()
         {
             instance = this;
@@ -65,25 +70,31 @@ namespace MonoGame
             AddListToScene();
             
         }
-        public Item GetItem(Vector2 vector2)
+
+        public Item GetItem(string name)
         {
+
+            var items = Scene.FindEntity(name);
+
             foreach (var item in ItemsInScene)
             {
-                if (item.Position == vector2)
+                if (item.Name == name)
                 {
                     return item;
                 }
             }
+
             return null;
         }
         public void ReloadMap()
         {
+            //turnBasedSystem.KillAllActor();
             turnBasedSystem.RemoveActor(player);
             foreach (var item in ItemsInScene)
             {
                 item.Destroy();
-                
             }
+            
 
             ItemsInScene.Clear();
             tileMap.Clear();
@@ -98,18 +109,31 @@ namespace MonoGame
 
         private void MapStyle()
         {
-            int mapRPNG = rng.Next(0, 2);
+            //Level++;
 
-            //Picking which map style to load
-            if (mapRPNG == 0)
+            Level = 3 ;
+            
+            if (Level == 3)
             {
-                tileMap = InitializeMap();
+                tileMap = TextMap(path + "Level_Boss.txt");
             }
             else
             {
-                tileMap = TextMap(path + PickRandomMap());
+                int mapRPNG = rng.Next(0, 2);
+                //Picking which map style to load
+                if (mapRPNG == 0)
+                {
+                    tileMap = InitializeMap();
+                }
+                else
+                {
+                    tileMap = TextMap(path + PickRandomMap());
+                }
+                Debug.Log("!!!!Level!!!");
+                Debug.Log(Level);
             }
             loadMap();
+
         }
 
         private Dictionary<Vector2, int> InitializeMap()
@@ -282,6 +306,33 @@ namespace MonoGame
                 }
             }
 
+            // Placing random items
+            int itemCount = 12;
+            for (int i = 0; i < itemCount; i++)
+            {
+                int rngItem;
+                bool itemPlaced = false;
+                while (!itemPlaced)
+                {
+                    int itemX = rng.Next(1, rngX - 2);
+                    int itemY = rng.Next(1, rngY - 2);
+
+                    do
+                    {
+                        rngItem = rng.Next(7, 10);
+                    }
+                    while (rngItem == lastItem);
+                    Vector2 itemPosition = new Vector2(itemX, itemY);
+
+                    if (MapGen[itemPosition] == 1)
+                    {
+                        MapGen[itemPosition] = rngItem;
+                        lastItem = rngItem;
+                        itemPlaced = true;
+                    }
+                }
+            }
+
             return MapGen;
         }
 
@@ -340,7 +391,6 @@ namespace MonoGame
                             break;
                         case '@':
                             result[tilePosition] = 3; // Player
-                            
                             break;
                         case '=':
                             result[tilePosition] = 4; // Enemy
@@ -359,6 +409,9 @@ namespace MonoGame
                             break;
                         case 'L':
                             result[tilePosition] = 9; // Lightninhg 
+                            break;
+                        case '!':
+                            result[tilePosition] = 10; // BOSS
                             break;
                     }
                 }
@@ -385,8 +438,25 @@ namespace MonoGame
                         addTile(exitTexture, tilePosition);
                         break;
                     case 3:
+                        Player oldPlayer = player; // save the current player (if any)
+
                         player = new Player();
                         player.startPosition = tilePosition;
+
+                        if (oldPlayer != null)
+                        {
+                            // Copy health
+                            player.healthSystem.health = oldPlayer.healthSystem.health;
+
+                            // Clone inventory and update ownership
+                            player.Inventory = new List<Item>();
+                            foreach (Item item in oldPlayer.Inventory)
+                            {
+                                item.Owner = player; // Set new owner
+                                player.Inventory.Add(item); // Add to new player's inventory
+                            }
+                        }
+
                         turnBasedSystem.AddActor(player);
                         Scene.AddEntity(player);
                         addTile(groundTexture, tilePosition);
@@ -430,6 +500,13 @@ namespace MonoGame
                         ItemsInScene.Add(lightning);
                         addTile(groundTexture, tilePosition);
                         break;
+                    case 10:
+                        Boss boss = new Boss();
+                        boss.startPosition = tilePosition;
+                        turnBasedSystem.AddActor(boss);
+                        enemies.Add(boss);
+                        addTile(groundTexture, tilePosition);
+                        break;
                 }
             }
             
@@ -451,12 +528,17 @@ namespace MonoGame
                 Scene.AddEntity(actor);
                 Debug.Log(actor.Name);
             }
-
+            Debug.Log($"Enemy Count : {enemies.Count}");
             foreach (Item item in ItemsInScene)
             {
                 Scene.AddEntity(item);
             }
             turnBasedSystem.UpdateTurn();
+        }
+
+        public void RemoveEnemy(Enemy enemy)
+        {
+            enemies.Remove(enemy);
         }
     }
 }

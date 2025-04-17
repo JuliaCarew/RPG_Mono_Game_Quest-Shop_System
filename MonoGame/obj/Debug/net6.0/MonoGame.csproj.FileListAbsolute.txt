@@ -170,3 +170,4 @@ C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\re
 C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.pdb
 C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\MonoGame.genruntimeconfig.cache
 C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\obj\Debug\net6.0\ref\MonoGame.dll
+C:\Users\Shawn Bernard\Desktop\Coding\RPG_Mono_Game\MonoGame\bin\Debug\net6.0\Content\Boss.xnb

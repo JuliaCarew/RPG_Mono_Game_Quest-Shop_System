@@ -8,10 +8,11 @@ using Nez.Tweens;
 using System.Linq.Expressions;
 using Nez.AI.Pathfinding;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace MonoGame
 {
-    public abstract class Actor : Entity, IUpdatable
+    public abstract class Actor : Entity, IUpdatable, ICoroutine
     {
         public SpriteRenderer spriteRenderer;
         public Entity TurnManager;
@@ -31,7 +32,7 @@ namespace MonoGame
 
         public TurnBasedSystem turnBasedSystem;
 
-        public float animationTime = .20f;
+        public float animationTime = .70f;
 
         public List<Point> ActorsPosition = new List<Point>();
         public Actor()
@@ -85,7 +86,9 @@ namespace MonoGame
             //Debug.Log("Started turn");
             isTurn = true;
             WaitForTurn = false;
-            Scene.Camera.SetPosition(Position);
+
+            //spriteRenderer.Color = Color.White;
+            //Scene.Camera.SetPosition(Position);
         }
 
         public virtual void EndTurn()
@@ -124,8 +127,27 @@ namespace MonoGame
         public virtual void TakeDamage(int damage)
         {
             healthSystem.TakeDamage(damage);
+            // Start the FlashDamageEffect coroutine
+            FlashDamageEffect();
             Death();
         }
+
+        // FlashDamageEffect Coroutine using Nez's coroutine system
+        public IEnumerator FlashDamageEffect()
+        {
+            Debug.Log("Started");
+            spriteRenderer.Color = Color.Red;
+            yield return Coroutine.WaitForSeconds(0.1f);
+            Debug.Log("Started 2 second");
+            // Flash White for 0.05 seconds
+            spriteRenderer.Color = Color.White;
+            yield return Coroutine.WaitForSeconds(0.05f);
+
+            Debug.Log("Started the ending");
+            spriteRenderer.Color = Color.White;
+        }
+
+
         public void Move(Vector2 targetPosition)
         {
             if (Position != targetPosition)
@@ -134,10 +156,20 @@ namespace MonoGame
                 WaitAnimation = true;
                 Vector2 MoveVector = targetPosition;
                 // moving to the move vector, how long the action is. then what to do after its done
-                this.TweenPositionTo(MoveVector, 1.20f).SetCompletionHandler(action => { WaitAnimation = false; UpdateTurn(); }).Start();
+                this.TweenPositionTo(MoveVector, animationTime).SetCompletionHandler(action => { WaitAnimation = false; UpdateTurn(); }).Start();
 
 
             }
+        }
+
+        public void Stop()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public ICoroutine SetUseUnscaledDeltaTime(bool useUnscaledDeltaTime)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

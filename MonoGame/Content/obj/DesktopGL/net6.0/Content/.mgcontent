@@ -4,6 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Boss.png</File>
     <File>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Enemy.png</File>
     <File>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Exit.png</File>
     <File>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Fireball.png</File>
@@ -16,6 +17,7 @@
     <File>C:/Users/Shawn Bernard/Desktop/Coding/RPG_Mono_Game/MonoGame/Content/Wall.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

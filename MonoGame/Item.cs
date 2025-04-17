@@ -35,16 +35,11 @@ namespace MonoGame
         {
 
         }
-
-        public virtual void Use(Actor actor)
-        {
-
-        }
     }
 
     public class HealingPotion : Item
     {
-        int HealAmount = 1;
+        int HealAmount = 3;
 
         private Texture2D Health;
 
@@ -62,6 +57,7 @@ namespace MonoGame
 
         public override void Use()
         {
+            Debug.Log("Heal");
             Owner.healthSystem.Heal(HealAmount);
             Owner.EndTurn();
         }
@@ -81,16 +77,17 @@ namespace MonoGame
             LoadTexture("Fireball");
         }
 
-        public override void Use(Actor actor)
+        public override void Use()
         {
-            actor.healthSystem.TakeDamage(DamageAmount);
+
+            //actor.TakeDamage(DamageAmount);
             Owner.EndTurn(); 
         }
     }
 
     public class ScrollOfLightning: Item
     {
-        int DamageAmount = 2;
+        int DamageAmount = 1;
 
         private Texture2D Lightning;
         public ScrollOfLightning()
@@ -103,9 +100,18 @@ namespace MonoGame
             LoadTexture("Lightning");
         }
 
-        public override void Use(Actor actor)
+        public override void Use()
         {
-            actor.healthSystem.TakeDamage(DamageAmount);
+            Debug.Log("Lightning");
+            for (int i = Map.instance.enemies.Count - 1; i >= 0; i--)
+            {
+                Enemy enemy = Map.instance.enemies[i];
+                if (enemy != null)
+                {
+                    Debug.Log($"{enemy.Name} was hit by lightning");
+                    enemy.TakeDamage(DamageAmount);
+                }
+            }
             Owner.EndTurn();
         }
     }

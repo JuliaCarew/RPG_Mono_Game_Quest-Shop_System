@@ -53,7 +53,7 @@ namespace MonoGame
         public override void TakeDamage(int damage)
         {
             stunCount = 3;
-            spriteRenderer.Color = Color.Gray;
+            //spriteRenderer.Color = Color.Gray;
             base.TakeDamage(damage);
         }
         
@@ -63,7 +63,7 @@ namespace MonoGame
             {
                 Debug.Log(Name);
                 Debug.Log("I am dead");
-                Map.instance.enemies.Remove(this);
+                Map.instance.RemoveEnemy(this);
                 turnBasedSystem.RemoveActor(this);
                 
             }
@@ -72,10 +72,17 @@ namespace MonoGame
 
     public class EnemyMovement : Movement
     {
+        public System.Random rng = new System.Random();
+
         public Actor player;
 
         public Enemy enemy;
-        
+
+        public Point entityPosition;
+
+        public Point playerPosition;
+
+        public AstarGridGraph grid;
         public EnemyMovement(Enemy actor)
         {
             entity = actor;
@@ -127,15 +134,15 @@ namespace MonoGame
 
             player = (Player)entity.Scene.FindEntity("Player");
             // Getting tile position for my points 
-            Point entityPosition = new Point((int)(entity.Position.X / 16), (int)(entity.Position.Y / 16));
-            Point playerPosition = new Point((int)(player.Position.X / 16), (int)(player.Position.Y / 16));
+            entityPosition = new Point((int)(entity.Position.X / 16), (int)(entity.Position.Y / 16));
+            playerPosition = new Point((int)(player.Position.X / 16), (int)(player.Position.Y / 16));
 
             // Adding a list of wall that are points 
             List<Point> walls = GetWalls();
 
 
             // Making my grind how for looking. this should be from my tile map but this is a quick fix 
-            AstarGridGraph grid = new AstarGridGraph(500, 500);
+            grid = new AstarGridGraph(500, 500);
 
             // Adding my walls for each point in list of walls
             foreach (Point wall in walls)
@@ -157,9 +164,9 @@ namespace MonoGame
                 else
                 {
                     Debug.Log("Moving towards player");
-                    targetPosition = new Vector2(nextStep.X, nextStep.Y);
+                    //targetPosition = new Vector2(nextStep.X, nextStep.Y);
 
-                    InteractOrMove(targetPosition);
+                    InteractOrMove(new Vector2(nextStep.X, nextStep.Y));
                 }
             }
             else
@@ -173,7 +180,7 @@ namespace MonoGame
 
         public Vector2 MoveInRandomDirection()
         {
-            System.Random rng = new System.Random();
+            
             int rngMove = rng.Next(0, 4);
 
             Vector2 move = tilePosition;

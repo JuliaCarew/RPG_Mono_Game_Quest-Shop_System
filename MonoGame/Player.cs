@@ -18,7 +18,7 @@ namespace MonoGame
         public InventorySystem inventorySystem;
         public Player()
         {
-            healthSystem.health = 5;
+            healthSystem.health = 6;
             //Position = startPosition;
             Name = "Player";
         }
@@ -36,15 +36,21 @@ namespace MonoGame
 
         public void AddItem(Item item)
         {
-            Inventory.Add(item);
+            if (Inventory.Count == 5)
+            {
+                Debug.Log("No room for item");
+            }
+            else
+            {
+                Debug.Log(Inventory.Count);
+                //item.Owner = this;
+                Inventory.Add(item);
+            }
         }
         public override void Death()
         {
             if (healthSystem.health == 0)
             {
-                Debug.Log(Name);
-                Debug.Log("I am dead");
-                turnBasedSystem.RemoveActor(this);
                 Core.Scene = new GameOver();
             }
         }
@@ -64,6 +70,8 @@ namespace MonoGame
 
         public override void InteractOrMove(Vector2 targetPosition)
         {
+            Debug.Log("Map level");
+            Debug.Log(map.Level);
             Debug.Log(entity.Position);
             // Get a return from the target position
             int tile = map.checkTile(targetPosition);
@@ -121,19 +129,19 @@ namespace MonoGame
                     break;
 
                 case 7: // Health potion
-                    player.AddItem((Map.instance.GetItem(targetPosition * 16)));
+                    player.AddItem((Map.instance.GetItem("Healing Potion")));
                     Debug.Log("Healing potion!");
                     tilePosition = targetPosition;
                     break;
 
                 case 8: // Fireball scroll
-                    player.AddItem((Map.instance.GetItem(targetPosition * 16)));
+                    player.AddItem((Map.instance.GetItem("Scroll of Fireball")));
                     Debug.Log("Fireball scroll!");
                     tilePosition = targetPosition;
                     break;
 
                 case 9: // Lightning scroll
-                    player.AddItem((Map.instance.GetItem(targetPosition * 16)));
+                    player.AddItem((Map.instance.GetItem("Scroll of Lightining")));
                     Debug.Log("Lightning scroll!");
                     tilePosition = targetPosition;
                     break;
@@ -179,9 +187,9 @@ namespace MonoGame
             }
             else
             {
-                foreach (var item in entity.Inventory)
+                foreach (Item item in entity.Inventory)
                 {
-                    table.Add(item.ToString());
+                    table.Add(item.Name);
                     table.Row();
                 }
             }
