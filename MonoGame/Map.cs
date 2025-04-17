@@ -109,10 +109,8 @@ namespace MonoGame
 
         private void MapStyle()
         {
-            //Level++;
+            Level++;
 
-            Level = 3 ;
-            
             if (Level == 3)
             {
                 tileMap = TextMap(path + "Level_Boss.txt");
