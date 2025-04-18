@@ -93,31 +93,39 @@ namespace MonoGame
 
             Skin skin = Skin.CreateDefaultSkin();
 
-            TextButton gameOverButton = new TextButton("Game Over",skin);
-            gameOverButton.SetPosition(600, 150);
+            TextField gameOverText = new TextField("Game Over", skin);
+            gameOverText.SetPosition(600, 100);
 
 
             TextButton restartButton = new TextButton("Restart Game", skin);
-            restartButton.SetPosition(600, 180);
+            restartButton.SetPosition(600, 200);
             restartButton.Center();
 
+            TextButton MenuButton = new TextButton("Main Menu", skin);
+            MenuButton.SetPosition(600, 300);
+            MenuButton.Center();
+
             TextButton quitButton = new TextButton("Quit Game", skin);
-            quitButton.SetPosition(600, 200);
+            quitButton.SetPosition(600, 400);
             quitButton.Center();
 
 
             restartButton.OnClicked += RestartGame;
+            MenuButton.OnClicked += MainMenu;
             quitButton.OnClicked += QuitGame;
 
 
-            canvas.Stage.AddElement(gameOverButton);
+            canvas.Stage.AddElement(gameOverText);
             canvas.Stage.AddElement(restartButton);
             canvas.Stage.AddElement(quitButton);
         }
-
         private void RestartGame(Button button)
         {
             Core.Scene = new Gameplay();
+        }
+        private void MainMenu(Button button)
+        {
+            Core.Scene = new MainMenu();
         }
 
         private void QuitGame(Button button)
@@ -129,7 +137,7 @@ namespace MonoGame
     {
         public override void Initialize()
         {
-            ClearColor = Color.Yellow;
+            ClearColor = Color.LightCoral;
 
             UICanvas canvas = CreateEntity("ui").AddComponent(new UICanvas());
             canvas.IsFullScreen = true;
@@ -137,31 +145,38 @@ namespace MonoGame
 
             Skin skin = Skin.CreateDefaultSkin();
 
-            TextButton gameOverButton = new TextButton("You Win!", skin);
-            gameOverButton.SetPosition(600, 150);
-
+            TextField victoryText = new TextField("You Win!", skin);
+            victoryText.SetPosition(600, 100);
 
             TextButton restartButton = new TextButton("Restart Game", skin);
-            restartButton.SetPosition(600, 180);
+            restartButton.SetPosition(600, 200);
             restartButton.Center();
 
+            TextButton MenuButton = new TextButton("Main Menu", skin);
+            MenuButton.SetPosition(600, 300);
+            MenuButton.Center();
+
             TextButton quitButton = new TextButton("Quit Game", skin);
-            quitButton.SetPosition(600, 200);
+            quitButton.SetPosition(600, 400);
             quitButton.Center();
 
 
             restartButton.OnClicked += RestartGame;
+            MenuButton.OnClicked += MainMenu;
             quitButton.OnClicked += QuitGame;
 
 
-            canvas.Stage.AddElement(gameOverButton);
+            canvas.Stage.AddElement(victoryText);
             canvas.Stage.AddElement(restartButton);
             canvas.Stage.AddElement(quitButton);
         }
-
         private void RestartGame(Button button)
         {
             Core.Scene = new Gameplay();
+        }
+        private void MainMenu(Button button)
+        {
+            Core.Scene = new MainMenu();
         }
 
         private void QuitGame(Button button)

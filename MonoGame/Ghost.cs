@@ -25,6 +25,19 @@ namespace MonoGame
             LoadTexture("Ghost");
         }
 
+        public override void TakeDamage(int damage, AttackType attackType)
+        {
+            if (attackType == AttackType.Magic)
+            {
+                base.TakeDamage(damage, attackType);
+            }
+            else
+            {
+                Debug.Log("I'm a ghost and cannot be attack");
+                return;
+            }
+        }
+
     }
 
     public class GhostMovement : EnemyMovement
@@ -56,7 +69,7 @@ namespace MonoGame
                 Point nextStep = path[1];
                 if (nextStep == playerPosition)
                 {
-                    entity.Attack(player);
+                    entity.basicAttack(player);
                 }
                 else
                 {

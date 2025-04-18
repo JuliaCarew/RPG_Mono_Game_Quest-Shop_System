@@ -8,20 +8,24 @@ using System.Linq;
 using System;
 using Nez.AI.GOAP;
 using System.ComponentModel.Design;
+using Nez.UI;
 
 namespace MonoGame
 {
     public class Boss : Enemy
     {
+        public BossMovement bossMovement;
         public Boss()
         {
-            healthSystem.health = 9;
+            healthSystem.health = 12;
             Name = "Boss";
 
         }
         public override void OnAddedToScene()
         {
-            AddComponent(new BossMovement(this));
+            bossMovement = new BossMovement(this);
+            AddComponent(bossMovement);
+            AddComponent(new BossUI(this));
             LoadTexture("Boss");
         }
 
@@ -37,7 +41,7 @@ namespace MonoGame
 
     public class BossMovement : EnemyMovement
     {
-        private enum Action
+        public enum Action
         {
             Nothing,
             Basic,
@@ -45,6 +49,8 @@ namespace MonoGame
             Charge
         }
         int range;
+
+        public Action action;
 
         Action lastAction;
         public BossMovement(Enemy actor) : base(actor)
@@ -68,7 +74,6 @@ namespace MonoGame
             }
 
 
-            Action action;
             do
             {
                 action = (Action)rng.Next(0, 4);
@@ -92,7 +97,7 @@ namespace MonoGame
                 case Action.Shoot:
                     if (CanShoot())
                     {
-                        entity.Attack(player);
+                        entity.basicAttack(player);
                     }
                     else
                         entity.EndTurn();
@@ -312,6 +317,39 @@ namespace MonoGame
             }
 
             return false;
+        }
+    }
+    public class BossUI : UICanvas
+    {
+        private Boss entity;
+        public Table table;
+
+        public BossUI(Boss actor)
+        {
+            entity = actor;
+
+            Skin skin = Skin.CreateDefaultSkin();
+            table = new Table();
+            Stage.AddElement(table);
+            table.ToFront();
+        }
+
+        public override void OnAddedToEntity()
+        {
+            table.Add(entity.Name);
+            table.Row();
+            table.Add("Health: " + entity.healthSystem.health);
+            table.Row();
+        }
+
+        public override void Update()
+        {
+
+            table.Clear();
+            table.Add("Next Action");
+            table.Row();
+            table.Add($" {entity.bossMovement.action}");
+            table.SetPosition(1200, 50);
         }
     }
 }

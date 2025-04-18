@@ -10,6 +10,8 @@ namespace MonoGame
     {
         //public HealthSystem healthSystem;
         public int health;
+
+        public int maxHealth = 10;
         public HealthSystem()
         {
             ResetGame();
@@ -26,9 +28,9 @@ namespace MonoGame
         public void Heal(int hp)
         {
             health += hp;
-            if (health >= 100)//if health is greater than 100
+            if (health >= maxHealth)//if health is greater than 100
             {
-                health = 100; //Set to 100
+                health = maxHealth; //Set to 100
             }
         }
         public void ResetGame()

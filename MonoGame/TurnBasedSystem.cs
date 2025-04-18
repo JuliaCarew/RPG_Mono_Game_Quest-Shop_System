@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace MonoGame
 {
-    public class TurnBasedSystem : Component, IUpdatable
+    public class TurnBasedSystem : Component
     {
         public List<Actor> Actors;
         private int order = 0;
@@ -16,21 +16,10 @@ namespace MonoGame
             Actors = new List<Actor>();
         }
 
-        public override void OnAddedToEntity()
-        {
-
-        }
-
         public void AddActor(Actor actor)
         {
             Actors.Add(actor);
             actor.turnBasedSystem = this;
-        }
-
-        public void Update()
-        {
-
-            //UpdateTurn();
         }
 
         public Actor GetActor(Vector2 vector2)
@@ -39,6 +28,10 @@ namespace MonoGame
             {
                 if (actor.Position == vector2)
                 {
+                    if (actor == null)
+                    {
+                        Debug.Log("No actor was found");
+                    }
                     return actor;
                 }
             }
@@ -62,14 +55,6 @@ namespace MonoGame
             actor.Destroy();
         }
 
-        public void KillAllActor()
-        {
-            for (int i = 0; i < Actors.Count; i++)
-            {
-                Actor actor = Actors[i];
-                actor.Scene.DestroyAllEntities();
-            }
-        }
 
         public void UpdateTurn()
         {
@@ -84,14 +69,6 @@ namespace MonoGame
                 Debug.Log("actorTurn");
                 Debug.Log(actorTurn.Name);
                 Debug.Log(actorTurn.Position);
-                /*
-                if (Entity != null)
-                {
-                    Camera camera = Entity.Scene.Camera;
-                    camera.Entity.TweenPositionTo(actorTurn.Position, actorTurn.animationTime).Start();
-                }
-                */
-                // Start turn if it's this actor's turn
                 if (!actorTurn.isTurn)
                 {
                     
@@ -100,9 +77,6 @@ namespace MonoGame
 
                 }
                 order++;
-
-
-
                 Debug.Log(order);
 
             }

@@ -76,9 +76,7 @@ namespace MonoGame
             }
             if (Input.IsKeyPressed(Keys.R))
             {
-                //Debug.Log("Moving Right");
-                map.ReloadMap();
-                //Debug.Log(move);
+                Core.Scene = new Gameplay();
             }
 
 
@@ -106,7 +104,7 @@ namespace MonoGame
                     Debug.Log(targetPoint);
                     */
                     Actor actorToAttack = entity.turnBasedSystem.GetActor(targetPosition * 16);
-                    entity.Attack(actorToAttack);
+                    entity.basicAttack(actorToAttack);
 
                     tile = 4;
 

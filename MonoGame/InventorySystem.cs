@@ -20,7 +20,7 @@ namespace MonoGame
 
         public void Update()
         {
-            if (Owner.isTurn && !Owner.WaitAnimation)
+            if (Owner.isTurn && !Owner.WaitAnimation && !Owner.isAiming)
             {
                 InventoryController();
             }
@@ -68,7 +68,8 @@ namespace MonoGame
         {
             if (Owner.Inventory.Count > Index)
             {
-                Owner.Inventory[Index].Use();
+                var item = Owner.Inventory[Index];
+                item.Use();
                 Owner.Inventory.RemoveAt(Index);
             }
             else

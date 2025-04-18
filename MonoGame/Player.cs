@@ -16,9 +16,11 @@ namespace MonoGame
         public List<Item> Inventory = new List<Item>();
 
         public InventorySystem inventorySystem;
+
+        public bool isAiming;
         public Player()
         {
-            healthSystem.health = 6;
+            healthSystem.health = 9;
             //Position = startPosition;
             Name = "Player";
         }
@@ -67,6 +69,14 @@ namespace MonoGame
 
             player = actor;
         }
+        public override void Update()
+        {
+            if (!player.isAiming)
+            {
+                base.Update();
+            }
+            
+        }
 
         public override void InteractOrMove(Vector2 targetPosition)
         {
@@ -87,7 +97,7 @@ namespace MonoGame
                     if (targetActor != null && targetActor != entity)  // Make sure we're not attacking the player
                     {
                         Debug.Log("Actor found attack");
-                        entity.Attack(targetActor);  // Attack the target actor
+                        entity.basicAttack(targetActor);  // Attack the target actor
                         return;  // Exit after attacking
                     }
                 }
@@ -104,7 +114,7 @@ namespace MonoGame
                     break;
 
                 case 2: // Exit
-                    if (Map.instance.enemies.Count == 0)
+                    if (Map.instance.CanLeave())
                         Map.instance.ReloadMap();
                     break;
 
@@ -187,14 +197,16 @@ namespace MonoGame
             }
             else
             {
+                int keyNum = 1;
                 foreach (Item item in entity.Inventory)
                 {
-                    table.Add(item.Name);
+                    table.Add($"{item.Name} = Key :{keyNum}");
                     table.Row();
+                    keyNum++;
                 }
             }
 
-            table.SetPosition(50, 50);
+            table.SetPosition(50, 40);
         }
     }
 }

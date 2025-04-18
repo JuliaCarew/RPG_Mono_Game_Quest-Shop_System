@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static MonoGame.Actor;
 
 namespace MonoGame
 {
@@ -71,6 +72,34 @@ namespace MonoGame
             
         }
 
+        public Enemy GetEnemy(Vector2 vector2)
+        {
+            foreach (Enemy enemy in enemies)
+            {
+                if (enemy.Position == vector2)
+                {
+                    if (enemy == null)
+                    {
+                        Debug.Log("No enemy was found");
+                    }
+                    return enemy;
+                }
+            }
+            return null;
+        }
+
+        public bool CanLeave()
+        {
+            for (int i = enemies.Count - 1; i >= 0; i--)
+            {
+                Enemy enemy = enemies[i];
+                if (enemy != null && enemy is Ghost)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         public Item GetItem(string name)
         {
 
@@ -88,13 +117,27 @@ namespace MonoGame
         }
         public void ReloadMap()
         {
+
             //turnBasedSystem.KillAllActor();
             turnBasedSystem.RemoveActor(player);
+
+            for (int i = enemies.Count - 1; i >= 0; i--)
+            {
+                Enemy enemy = enemies[i];
+                if (enemy != null && enemy is Ghost)
+                {
+                    turnBasedSystem.RemoveActor(enemy);
+                }
+            }
+
             foreach (var item in ItemsInScene)
             {
                 item.Destroy();
             }
+
             
+
+            enemies = new List<Enemy>();
 
             ItemsInScene.Clear();
             tileMap.Clear();
@@ -110,7 +153,7 @@ namespace MonoGame
         private void MapStyle()
         {
             Level++;
-
+            //Level = 3;
             if (Level == 3)
             {
                 tileMap = TextMap(path + "Level_Boss.txt");
@@ -125,6 +168,7 @@ namespace MonoGame
                 }
                 else
                 {
+                    //tileMap = InitializeMap();
                     tileMap = TextMap(path + PickRandomMap());
                 }
                 Debug.Log("!!!!Level!!!");
@@ -518,13 +562,14 @@ namespace MonoGame
             //Debug.Log(Scale);
             AddComponent(tileRenderer);
         }
-
         private void AddListToScene()
         {
             foreach (Enemy actor in enemies)
             {
+                Debug.Log($"enemy actor position!!!!!!!!!!!!!");
+                Debug.Log(actor.Position);
                 Scene.AddEntity(actor);
-                Debug.Log(actor.Name);
+                //Debug.Log(actor.Name);
             }
             Debug.Log($"Enemy Count : {enemies.Count}");
             foreach (Item item in ItemsInScene)

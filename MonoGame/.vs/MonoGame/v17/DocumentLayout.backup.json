@@ -3,48 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A449B958-9B87-4262-8663-AD5D68D5ED7D}|..\\Nez-master\\Nez.Portable\\Nez.MG38.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\nez-master\\nez.portable\\ecs\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,27 +54,32 @@
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnbasedsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A449B958-9B87-4262-8663-AD5D68D5ED7D}|..\\Nez-master\\Nez.Portable\\Nez.MG38.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\nez-master\\nez.portable\\ecs\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -84,21 +88,17 @@
       "AbsoluteMoniker": "D:0:0:{A449B958-9B87-4262-8663-AD5D68D5ED7D}|..\\Nez-master\\Nez.Portable\\Nez.MG38.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\nez-master\\nez.portable\\utils\\collections\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\shawn bernard\\desktop\\coding\\rpg_mono_game\\monogame\\monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,32 +114,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Actor.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Actor.cs",
               "RelativeDocumentMoniker": "Actor.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Actor.cs",
               "RelativeToolTip": "Actor.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAwwIkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T18:17:00.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Boss.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Boss.cs",
               "RelativeDocumentMoniker": "Boss.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Boss.cs",
               "RelativeToolTip": "Boss.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAqwEYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAADUBAAAAAAAAAAAwwF4BAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:21:18.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T22:21:18.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "PriorityQueue.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Collections\\PriorityQueue.cs",
               "RelativeDocumentMoniker": "..\\Nez-master\\Nez.Portable\\Utils\\Collections\\PriorityQueue.cs",
@@ -151,28 +150,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "InventorySystem.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\InventorySystem.cs",
               "RelativeDocumentMoniker": "InventorySystem.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\InventorySystem.cs",
               "RelativeToolTip": "InventorySystem.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwEQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T04:26:27.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T04:26:27.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
               "RelativeDocumentMoniker": "..\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
               "RelativeToolTip": "..\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
-              "ViewState": "AgIAAPADAAAAAAAAAAAYwPIDAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAN4DAAAAAAAAAAAcwPIDAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T01:53:20.647Z"
+              "WhenOpened": "2025-04-07T01:53:20.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -188,19 +187,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\MainMenu.cs",
               "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAIwE4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T18:04:08.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "Wizard.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Wizard.cs",
               "RelativeDocumentMoniker": "Wizard.cs",
@@ -212,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PropertyTweens.cs",
               "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
@@ -229,13 +228,13 @@
               "RelativeDocumentMoniker": "UI.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\UI.cs",
               "RelativeToolTip": "UI.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T11:43:39.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "MonoGame.csproj",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
               "RelativeDocumentMoniker": "MonoGame.csproj",
@@ -247,76 +246,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HealthSystem.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\HealthSystem.cs",
               "RelativeDocumentMoniker": "HealthSystem.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\HealthSystem.cs",
               "RelativeToolTip": "HealthSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T11:35:42.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Movement.cs",
               "RelativeDocumentMoniker": "Movement.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Movement.cs",
               "RelativeToolTip": "Movement.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAwwHcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowE4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T19:05:48.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Ghost.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Ghost.cs",
               "RelativeDocumentMoniker": "Ghost.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Ghost.cs",
               "RelativeToolTip": "Ghost.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:37:02.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:37:02.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Spider.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Spider.cs",
               "RelativeDocumentMoniker": "Spider.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Spider.cs",
               "RelativeToolTip": "Spider.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwGgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:23:28.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:23:28.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAuwIkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:22:58.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:22:58.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "TurnManager.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\TurnManager.cs",
               "RelativeDocumentMoniker": "TurnManager.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\TurnManager.cs",
               "RelativeToolTip": "TurnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T18:12:24.812Z"
             },
@@ -328,13 +324,13 @@
               "RelativeDocumentMoniker": "TurnBasedSystem.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\TurnBasedSystem.cs",
               "RelativeToolTip": "TurnBasedSystem.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T18:12:31.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -342,12 +338,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:15:04.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T13:15:04.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
@@ -359,42 +354,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
               "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAADwv54AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAwDYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:14:31.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T13:14:31.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Map.cs",
               "RelativeDocumentMoniker": "Map.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAADwv3AAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGABAAAAAAAAAAAowGkBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:10:25.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Item.cs",
               "RelativeDocumentMoniker": "Item.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\MonoGame\\Item.cs",
               "RelativeToolTip": "Item.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAYwGsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAiwMQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:27:08.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:27:08.887Z"
             }
           ]
         }

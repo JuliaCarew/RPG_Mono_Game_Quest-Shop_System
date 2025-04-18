@@ -12,10 +12,17 @@ using System.Collections;
 
 namespace MonoGame
 {
-    public abstract class Actor : Entity, IUpdatable, ICoroutine
+    public abstract class Actor : Entity, IUpdatable
     {
+        public enum AttackType
+        {
+            Basic,
+            Magic
+        }
+
         public SpriteRenderer spriteRenderer;
         public Entity TurnManager;
+
         public bool isTurn;
         public bool WaitForTurn;
         public bool WaitAnimation;
@@ -32,7 +39,7 @@ namespace MonoGame
 
         public TurnBasedSystem turnBasedSystem;
 
-        public float animationTime = .70f;
+        public float animationTime = .30f;
 
         public List<Point> ActorsPosition = new List<Point>();
         public Actor()
@@ -44,7 +51,6 @@ namespace MonoGame
             healthSystem = GetComponent<HealthSystem>();
 
         }
-
         public override void OnAddedToScene()
         {
             map = Scene.EntitiesOfType<Map>().FirstOrDefault();
@@ -65,7 +71,6 @@ namespace MonoGame
             {
                 grid.Dirs.Add(item);
             }
-
             return grid;
         }
 
@@ -112,9 +117,9 @@ namespace MonoGame
         }
 
         public abstract void Death();
-        public virtual void Attack(Actor actor)
+        public virtual void basicAttack(Actor actor)
         {
-            actor.TakeDamage(1);
+            actor.TakeDamage(1,AttackType.Basic);
             Debug.Log("This actor is being attacked");
             Debug.Log(actor.Name);
             Debug.Log("This is the actor health now");
@@ -124,23 +129,22 @@ namespace MonoGame
 
         }
 
-        public virtual void TakeDamage(int damage)
+        public virtual void TakeDamage(int damage,AttackType attackType)
         {
             healthSystem.TakeDamage(damage);
-            // Start the FlashDamageEffect coroutine
-            FlashDamageEffect();
+            Core.StartCoroutine(FlashDamageEffect());
             Death();
         }
 
         // FlashDamageEffect Coroutine using Nez's coroutine system
-        public IEnumerator FlashDamageEffect()
+        public virtual IEnumerator FlashDamageEffect()
         {
             Debug.Log("Started");
             spriteRenderer.Color = Color.Red;
-            yield return Coroutine.WaitForSeconds(0.1f);
+            yield return Coroutine.WaitForSeconds(0.5f);
             Debug.Log("Started 2 second");
             // Flash White for 0.05 seconds
-            spriteRenderer.Color = Color.White;
+            spriteRenderer.Color = Color.OrangeRed;
             yield return Coroutine.WaitForSeconds(0.05f);
 
             Debug.Log("Started the ending");
@@ -160,16 +164,6 @@ namespace MonoGame
 
 
             }
-        }
-
-        public void Stop()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public ICoroutine SetUseUnscaledDeltaTime(bool useUnscaledDeltaTime)
-        {
-            throw new System.NotImplementedException();
         }
     }
 }

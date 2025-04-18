@@ -6,6 +6,7 @@ using Nez.AI.Pathfinding;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using System.Collections;
 
 
 namespace MonoGame
@@ -20,7 +21,6 @@ namespace MonoGame
             {
                 if (stunCount > 0)
                 {
-                    spriteRenderer.Color = Color.Gray;
                     return true;
                 }
                 else
@@ -50,13 +50,27 @@ namespace MonoGame
             base.EndTurn();
             stunCount--;
         }
-        public override void TakeDamage(int damage)
+        public override void TakeDamage(int damage, AttackType attackType)
         {
+            base.TakeDamage(damage,attackType);
             stunCount = 3;
-            //spriteRenderer.Color = Color.Gray;
-            base.TakeDamage(damage);
         }
-        
+
+        public override IEnumerator FlashDamageEffect()
+        {
+            Debug.Log("Started");
+            spriteRenderer.Color = Color.Red;
+
+            yield return Coroutine.WaitForSeconds(0.5f);
+
+            spriteRenderer.Color = Color.OrangeRed;
+
+            yield return Coroutine.WaitForSeconds(0.05f);
+
+            Debug.Log("coroutine ended");
+            spriteRenderer.Color = Color.Gray;
+        }
+
         public override void Death()
         {
             if (healthSystem.health == 0)
@@ -68,6 +82,7 @@ namespace MonoGame
                 
             }
         }
+
     }
 
     public class EnemyMovement : Movement
@@ -159,7 +174,7 @@ namespace MonoGame
                 Point nextStep = path[1];
                 if (nextStep == playerPosition)
                 {
-                    entity.Attack(player);
+                    entity.basicAttack(player);
                 }
                 else
                 {

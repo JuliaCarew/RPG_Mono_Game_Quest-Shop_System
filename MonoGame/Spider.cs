@@ -61,7 +61,7 @@ namespace MonoGame
 
             if (CanShoot())
             {
-                entity.Attack(player);
+                entity.basicAttack(player);
             }
             else
             {
@@ -74,7 +74,7 @@ namespace MonoGame
                     Point nextStep = path[1];
                     if (nextStep == playerPosition)
                     {
-                        entity.Attack(player);
+                        entity.basicAttack(player);
                     }
                     else
                     {

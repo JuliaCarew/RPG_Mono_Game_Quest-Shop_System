@@ -23,11 +23,6 @@ namespace MonoGame
             AddComponent(new TurnBasedSystem());
             turnSystem = GetComponent<TurnBasedSystem>();
         }
-        public override void OnAddedToScene()
-        {
-
-            
-        }
 
     }
 }
