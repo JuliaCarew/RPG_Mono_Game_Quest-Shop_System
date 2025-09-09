@@ -114,7 +114,7 @@ namespace MonoGame
                     break;
 
                 case 2: // Exit
-                    if (Map.instance.CanLeave())
+                    if (Map.instance.enemies.Count == 0)
                         Map.instance.ReloadMap();
                     break;
 

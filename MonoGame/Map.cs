@@ -11,7 +11,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static MonoGame.Actor;
 
 namespace MonoGame
 {
@@ -88,7 +87,7 @@ namespace MonoGame
             return null;
         }
 
-        public bool CanLeave()
+        public bool CanLeave()// This doesn't work but im scared to remove it
         {
             for (int i = enemies.Count - 1; i >= 0; i--)
             {
@@ -100,9 +99,8 @@ namespace MonoGame
             }
             return false;
         }
-        public Item GetItem(string name)
+        public Item GetItem(string name) // Getting the item from the list of items in the map
         {
-
             var items = Scene.FindEntity(name);
 
             foreach (var item in ItemsInScene)
@@ -115,6 +113,9 @@ namespace MonoGame
 
             return null;
         }
+        /// <summary>
+        /// This handles reloads of the map that include removing player & ememies to list or adding them 
+        /// </summary>
         public void ReloadMap()
         {
 
@@ -137,24 +138,25 @@ namespace MonoGame
 
             
 
-            enemies = new List<Enemy>();
+            enemies = new List<Enemy>();// Making new list of ememies 
 
-            ItemsInScene.Clear();
-            tileMap.Clear();
+            ItemsInScene.Clear(); // Clearing the list of items in scene list
+
+            tileMap.Clear();// Clearing the list of tiles 
 
             // Remove sprite components
             RemoveAllComponents();
 
-            MapStyle();
+            MapStyle();// Picking the style of map (generation or text file) 
 
-            AddListToScene();
+            AddListToScene();// Adding my list of tiles & actors
         }
 
         private void MapStyle()
         {
             Level++;
             //Level = 3;
-            if (Level == 3)
+            if (Level == 3)//Level 3 being the boss
             {
                 tileMap = TextMap(path + "Level_Boss.txt");
             }

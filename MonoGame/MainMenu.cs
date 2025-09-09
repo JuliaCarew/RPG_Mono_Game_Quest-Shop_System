@@ -99,6 +99,7 @@ namespace MonoGame
 
             TextButton restartButton = new TextButton("Restart Game", skin);
             restartButton.SetPosition(600, 200);
+            //This will center the button text
             restartButton.Center();
 
             TextButton MenuButton = new TextButton("Main Menu", skin);
@@ -109,7 +110,7 @@ namespace MonoGame
             quitButton.SetPosition(600, 400);
             quitButton.Center();
 
-
+            // These give the button a funtion 
             restartButton.OnClicked += RestartGame;
             MenuButton.OnClicked += MainMenu;
             quitButton.OnClicked += QuitGame;
