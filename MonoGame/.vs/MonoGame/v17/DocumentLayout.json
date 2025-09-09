@@ -1,84 +1,131 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\",
+  "WorkspaceRootPath": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\maps\\level_1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:maps\\level_1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\questobjective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\questobjective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\quest_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\quest_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shop_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shop_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\maps\\level_boss.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:maps\\level_boss.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\maps\\level_3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:maps\\level_3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\maps\\level_2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:maps\\level_2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shopinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shopinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\questreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\questreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A449B958-9B87-4262-8663-AD5D68D5ED7D}|..\\Nez-master\\Nez.Portable\\Nez.MG38.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\nez-master\\nez.portable\\nez.mg38.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:monogame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\turnbasedsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\turnbasedsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:turnbasedsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0453579\\~notunity\\rpg_mono_game\\monogame\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|c:\\users\\w0517383\\documents\\gameprogrammingiii\\shopquest\\rpg_mono_game_quest-shop_system\\monogame\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -98,136 +145,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Scene.cs",
-              "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
-              "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
-              "ViewState": "AgIAAN4DAAAAAAAAAAAcwPIDAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T01:53:20.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MonoGame.Content.Builder.Task.targets",
-              "DocumentMoniker": "C:\\Users\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
-              "ToolTip": "C:\\Users\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-06T19:14:55.435Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MainMenu.cs",
-              "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwGUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:04:08.783Z",
+              "Title": "Level_1.txt",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_1.txt",
+              "RelativeDocumentMoniker": "Maps\\Level_1.txt",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_1.txt",
+              "RelativeToolTip": "Maps\\Level_1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-09T15:12:08.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Wizard.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Wizard.cs",
-              "RelativeDocumentMoniker": "Wizard.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Wizard.cs",
-              "RelativeToolTip": "Wizard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Shop.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop.cs",
+              "RelativeToolTip": "ShopSystem\\Shop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:04:14.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PropertyTweens.cs",
-              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
-              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:14:52.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UI.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\UI.cs",
-              "RelativeDocumentMoniker": "UI.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\UI.cs",
-              "RelativeToolTip": "UI.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T11:43:39.326Z"
+              "WhenOpened": "2025-09-09T14:57:52.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MonoGame.csproj",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
-              "RelativeDocumentMoniker": "MonoGame.csproj",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
-              "RelativeToolTip": "MonoGame.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-02T11:42:57.946Z",
+              "Title": "Quest_UI.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest_UI.cs",
+              "RelativeDocumentMoniker": "QuestSsystem\\Quest_UI.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest_UI.cs",
+              "RelativeToolTip": "QuestSsystem\\Quest_UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:48:26.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAwHQAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Shop_UI.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop_UI.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Shop_UI.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop_UI.cs",
+              "RelativeToolTip": "ShopSystem\\Shop_UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:22:58.976Z",
+              "WhenOpened": "2025-09-09T14:45:41.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "QuestObjective.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestObjective.cs",
+              "RelativeDocumentMoniker": "QuestSsystem\\QuestObjective.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestObjective.cs",
+              "RelativeToolTip": "QuestSsystem\\QuestObjective.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:39:55.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Map.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
               "RelativeDocumentMoniker": "Map.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Map.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAsCAAAAAAAAAAAAAC4CAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:10:25.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\UI.cs",
+              "RelativeDocumentMoniker": "UI.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\UI.cs",
+              "RelativeToolTip": "UI.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:43:39.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "QuestManager.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestManager.cs",
+              "RelativeDocumentMoniker": "QuestSsystem\\QuestManager.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestManager.cs",
+              "RelativeToolTip": "QuestSsystem\\QuestManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:39:39.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T12:27:08.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:22:58.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Movement.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Movement.cs",
               "RelativeDocumentMoniker": "Movement.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Movement.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Movement.cs",
               "RelativeToolTip": "Movement.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowE4AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T19:05:48.982Z",
               "EditorCaption": ""
@@ -235,61 +293,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Game1.cs",
-              "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Game1.cs",
-              "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:14:46.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ghost.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Ghost.cs",
-              "RelativeDocumentMoniker": "Ghost.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Ghost.cs",
-              "RelativeToolTip": "Ghost.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAmwB0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:37:02.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "InventorySystem.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\InventorySystem.cs",
-              "RelativeDocumentMoniker": "InventorySystem.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\InventorySystem.cs",
-              "RelativeToolTip": "InventorySystem.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T04:26:27.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAPgAAAAAAAAAAAD4vwkBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-09T13:35:46.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Boss.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Boss.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Boss.cs",
               "RelativeDocumentMoniker": "Boss.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Boss.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Boss.cs",
               "RelativeToolTip": "Boss.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwBMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -298,11 +305,214 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuestReward.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestReward.cs",
+              "RelativeDocumentMoniker": "QuestSsystem\\QuestReward.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestReward.cs",
+              "RelativeToolTip": "QuestSsystem\\QuestReward.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:40:07.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShopInventory.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\ShopInventory.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\ShopInventory.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\ShopInventory.cs",
+              "RelativeToolTip": "ShopSystem\\ShopInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:43:42.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Level_2.txt",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_2.txt",
+              "RelativeDocumentMoniker": "Maps\\Level_2.txt",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_2.txt",
+              "RelativeToolTip": "Maps\\Level_2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-09T15:12:10.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Level_3.txt",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_3.txt",
+              "RelativeDocumentMoniker": "Maps\\Level_3.txt",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_3.txt",
+              "RelativeToolTip": "Maps\\Level_3.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-09T15:12:11.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Level_Boss.txt",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_Boss.txt",
+              "RelativeDocumentMoniker": "Maps\\Level_Boss.txt",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Maps\\Level_Boss.txt",
+              "RelativeToolTip": "Maps\\Level_Boss.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-09T15:12:12.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InventorySystem.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\InventorySystem.cs",
+              "RelativeDocumentMoniker": "InventorySystem.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\InventorySystem.cs",
+              "RelativeToolTip": "InventorySystem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:26:27.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Nez.MG38",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+              "RelativeDocumentMoniker": "..\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+              "RelativeToolTip": "..\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T14:38:15.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
+              "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
+              "ViewState": "AgIAAN4DAAAAAAAAAAAcwPIDAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T01:53:20.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MonoGame.Content.Builder.Task.targets",
+              "DocumentMoniker": "C:\\Users\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "ToolTip": "C:\\Users\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Shawn Bernard\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-06T19:14:55.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwGUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:04:08.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Wizard.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Wizard.cs",
+              "RelativeDocumentMoniker": "Wizard.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Wizard.cs",
+              "RelativeToolTip": "Wizard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:04:14.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PropertyTweens.cs",
+              "DocumentMoniker": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
+              "ToolTip": "C:\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\~Shawn_Scripts\\~MonoGameHell\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Utils\\Tweens\\PropertyTweens.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T12:14:52.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MonoGame.csproj",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MonoGame.csproj",
+              "RelativeDocumentMoniker": "MonoGame.csproj",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MonoGame.csproj",
+              "RelativeToolTip": "MonoGame.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T11:42:57.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:14:46.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Ghost.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Ghost.cs",
+              "RelativeDocumentMoniker": "Ghost.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Ghost.cs",
+              "RelativeToolTip": "Ghost.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:37:02.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPgAAAAAAAAAAAD4vwkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-09T13:35:46.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Actor.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Actor.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Actor.cs",
               "RelativeDocumentMoniker": "Actor.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Actor.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Actor.cs",
               "RelativeToolTip": "Actor.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAAAHcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -310,11 +520,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "HealthSystem.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\HealthSystem.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\HealthSystem.cs",
               "RelativeDocumentMoniker": "HealthSystem.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\HealthSystem.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\HealthSystem.cs",
               "RelativeToolTip": "HealthSystem.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -322,11 +532,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "Spider.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Spider.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Spider.cs",
               "RelativeDocumentMoniker": "Spider.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Spider.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Spider.cs",
               "RelativeToolTip": "Spider.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAiwGgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -334,11 +544,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "TurnManager.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\TurnManager.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\TurnManager.cs",
               "RelativeDocumentMoniker": "TurnManager.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\TurnManager.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\TurnManager.cs",
               "RelativeToolTip": "TurnManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -346,11 +556,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "TurnBasedSystem.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\TurnBasedSystem.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\TurnBasedSystem.cs",
               "RelativeDocumentMoniker": "TurnBasedSystem.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\TurnBasedSystem.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\TurnBasedSystem.cs",
               "RelativeToolTip": "TurnBasedSystem.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,11 +568,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Program.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -370,27 +580,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Enemy.cs",
+              "ToolTip": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Enemy.cs",
               "RelativeToolTip": "Enemy.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAAwDYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:14:31.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Item.cs",
-              "RelativeDocumentMoniker": "Item.cs",
-              "ToolTip": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\Item.cs",
-              "RelativeToolTip": "Item.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAiwMQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:27:08.887Z"
             }
           ]
         }

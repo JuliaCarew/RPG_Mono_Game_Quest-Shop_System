@@ -11,6 +11,7 @@ namespace MonoGame
 {
     public class InventorySystem : Component, IUpdatable
     {
+        // may also need to give this to shops, make more generalized to use on both player and shop
         public Player Owner;
 
         public InventorySystem(Actor player)

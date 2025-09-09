@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj": {}
+    "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MonoGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj": {
+    "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MonoGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
+        "projectUniqueName": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MonoGame.csproj",
         "projectName": "MonoGame",
-        "projectPath": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\MonoGame.csproj",
-        "packagesPath": "C:\\Users\\w0453579\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\MonoGame\\obj\\",
+        "projectPath": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MonoGame.csproj",
+        "packagesPath": "C:\\Users\\W0517383\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\w0453579\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\W0517383\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
-                "projectPath": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj"
+              "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
+                "projectPath": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj"
               }
             }
           }
@@ -95,18 +95,18 @@
         }
       }
     },
-    "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
+    "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+        "projectUniqueName": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
         "projectName": "Nez",
-        "projectPath": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
-        "packagesPath": "C:\\Users\\w0453579\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\w0453579\\~NotUnity\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\obj\\Nez.MG38\\",
+        "projectPath": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Nez.MG38.csproj",
+        "packagesPath": "C:\\Users\\W0517383\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0517383\\Documents\\GameProgrammingIII\\ShopQuest\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\obj\\Nez.MG38\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\w0453579\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\W0517383\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

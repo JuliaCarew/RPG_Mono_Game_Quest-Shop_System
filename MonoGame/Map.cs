@@ -42,7 +42,7 @@ namespace MonoGame
         Player player;
         //AstarGridGraph grid;
 
-        Texture2D wallTexture, groundTexture, exitTexture;
+        Texture2D wallTexture, groundTexture, exitTexture; // shopTexture
 
         public int Level;
         public Map()
@@ -457,6 +457,9 @@ namespace MonoGame
                         case '!':
                             result[tilePosition] = 10; // BOSS
                             break;
+                        case 'S':
+                            result[tilePosition] = 11; // SHOP
+                            break;
                     }
                 }
                 y++;
@@ -551,6 +554,10 @@ namespace MonoGame
                         enemies.Add(boss);
                         addTile(groundTexture, tilePosition);
                         break;
+                    //case 11:
+                     //   Shop shop = new Shop();
+                     //   addTile(shopTexture, tilePosition);
+                     //   break;
                 }
             }
             
