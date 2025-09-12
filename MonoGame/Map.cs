@@ -41,8 +41,8 @@ namespace MonoGame
 
         Player player;
         //AstarGridGraph grid;
-
-        Texture2D wallTexture, groundTexture, exitTexture; // shopTexture
+ 
+        Texture2D wallTexture, groundTexture, exitTexture, shopTexture; 
 
         public int Level;
         public Map()
@@ -54,7 +54,6 @@ namespace MonoGame
 
         public override void OnAddedToScene()
         {
-           
             //Debug.Log($"{Environment.CurrentDirectory}/../../../Maps/");
             
 
@@ -64,7 +63,9 @@ namespace MonoGame
             wallTexture = Scene.Content.Load<Texture2D>("Wall");
             groundTexture = Scene.Content.Load<Texture2D>("Ground");
             exitTexture = Scene.Content.Load<Texture2D>("Exit");
-            
+            // ADDED
+            shopTexture = Scene.Content.Load<Texture2D>("Shop");
+
             MapStyle();
 
             AddListToScene();
@@ -554,10 +555,10 @@ namespace MonoGame
                         enemies.Add(boss);
                         addTile(groundTexture, tilePosition);
                         break;
-                    //case 11:
-                     //   Shop shop = new Shop();
-                     //   addTile(shopTexture, tilePosition);
-                     //   break;
+                    case 11:
+                        //Shop shop = new Shop();
+                        addTile(shopTexture, tilePosition);
+                        break;
                 }
             }
             
