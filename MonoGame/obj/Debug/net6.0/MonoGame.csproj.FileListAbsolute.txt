@@ -215,3 +215,47 @@ C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Sho
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.pdb
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.genruntimeconfig.cache
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\ref\MonoGame.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Boss.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Enemy.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Exit.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Fireball.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Ghost.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Ground.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Heal.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Lightning.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Player.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Spider.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Wall.xnb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.exe
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.deps.json
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.runtimeconfig.json
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.pdb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.Framework.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Nez.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Nez.pdb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.csproj.AssemblyReference.cache
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.AssemblyInfoInputs.cache
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.AssemblyInfo.cs
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.csproj.CoreCompileInputs.cache
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.sourcelink.json
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.csproj.Up2Date
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\refint\MonoGame.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.pdb
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.genruntimeconfig.cache
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\ref\MonoGame.dll
