@@ -131,10 +131,6 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[5.0.2, )"
             }
           },
           "imports": [
