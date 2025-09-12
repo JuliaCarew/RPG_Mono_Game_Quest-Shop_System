@@ -259,3 +259,4 @@ E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System
 E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.pdb
 E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.genruntimeconfig.cache
 E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\ref\MonoGame.dll
+E:\NSCC\Procedural Generation\Emergen t Behavior\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Content\Shop.xnb
