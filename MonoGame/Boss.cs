@@ -35,7 +35,6 @@ namespace MonoGame
             {
                 Core.Scene = new Victory();
             }
-
         }
     }
 

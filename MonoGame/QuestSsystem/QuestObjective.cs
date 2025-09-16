@@ -11,10 +11,14 @@ namespace MonoGame.QuestSsystem
     // make enum of types of objectives (general genres; collect, kill, explore)
     internal class QuestObjective //: Component, IUpdatable
     {
-        // list objectives
+        // one requirement, can be enum
+        public enum objectiveType
+        {
+            kill,
+            travel,
+            collect
+        }
 
-        // AddObjective()
-        // check IsComplete()
-        // RemoveObjective()
+        // different requirements to complete each
     }
 }

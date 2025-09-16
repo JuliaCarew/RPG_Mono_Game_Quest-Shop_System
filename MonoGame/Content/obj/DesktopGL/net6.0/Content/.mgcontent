@@ -4,21 +4,19 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Boss.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Enemy.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Exit.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Fireball.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Ghost.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Ground.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Heal.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Lightning.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Player.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Spider.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Wall.png</File>
-    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Shop.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Boss.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Enemy.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Exit.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Fireball.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Ghost.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Ground.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Heal.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Lightning.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Player.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Spider.png</File>
+    <File>C:/Users/W0517383/Documents/GameProgrammingIII/ShopQuest/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Wall.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

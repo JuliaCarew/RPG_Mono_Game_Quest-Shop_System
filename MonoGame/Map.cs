@@ -64,7 +64,7 @@ namespace MonoGame
             groundTexture = Scene.Content.Load<Texture2D>("Ground");
             exitTexture = Scene.Content.Load<Texture2D>("Exit");
             // ADDED
-            shopTexture = Scene.Content.Load<Texture2D>("Shop");
+            //shopTexture = Scene.Content.Load<Texture2D>("Shop");
 
             MapStyle();
 
@@ -558,6 +558,7 @@ namespace MonoGame
                     case 11:
                         //Shop shop = new Shop();
                         addTile(shopTexture, tilePosition);
+                        //ItemsInScene.Add(shop);
                         break;
                 }
             }

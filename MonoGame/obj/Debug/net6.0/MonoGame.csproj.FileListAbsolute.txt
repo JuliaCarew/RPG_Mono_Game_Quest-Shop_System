@@ -187,10 +187,7 @@ C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Sho
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.runtimeconfig.json
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.pdb
-C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\MonoGame.Framework.dll
-C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
@@ -199,8 +196,6 @@ C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Sho
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
-C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Nez.dll
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\bin\Debug\net6.0\Nez.pdb
 C:\Users\W0517383\Documents\GameProgrammingIII\ShopQuest\RPG_Mono_Game_Quest-Shop_System\MonoGame\obj\Debug\net6.0\MonoGame.csproj.AssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using Nez;
+using Nez.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,9 @@ namespace MonoGame.ShopSystem
     // text saying 'SHOP'
     internal class Shop_UI : UICanvas
     {
+        public Table inventoryIcons;
+
+        // fill icons out 
+
     }
 }

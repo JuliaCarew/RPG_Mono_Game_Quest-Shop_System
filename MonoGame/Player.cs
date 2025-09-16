@@ -35,6 +35,11 @@ namespace MonoGame
             LoadTexture("Player");
         }
 
+        public void ShopInteract()
+        {
+            // create instance of shop
+            // include interaction button recognizing, or just open when on it and close when moving.
+        }
 
         public void AddItem(Item item)
         {
@@ -153,6 +158,12 @@ namespace MonoGame
                 case 9: // Lightning scroll
                     player.AddItem((Map.instance.GetItem("Scroll of Lightining")));
                     Debug.Log("Lightning scroll!");
+                    tilePosition = targetPosition;
+                    break;
+
+                case 10: // shop
+                    player.ShopInteract();
+                    Debug.Log("Shop");
                     tilePosition = targetPosition;
                     break;
             }

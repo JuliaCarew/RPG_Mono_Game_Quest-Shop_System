@@ -11,5 +11,10 @@ namespace MonoGame.QuestSsystem
     // takes event from when quest objective is complete to move from active to complete list
     internal class QuestManager : Component
     {
+        public List<Quest> currentQuests = new List<Quest>();
+        public List<Quest> completedQuests = new List<Quest>();
+
+
+
     }
 }
