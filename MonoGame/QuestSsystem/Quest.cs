@@ -8,41 +8,21 @@ namespace MonoGame.QuestSsystem
 {
     internal class Quest
     {
-        string name;
-        public List<QuestObjective> objectives = new List<QuestObjective>();
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public bool IsCompleted { get; set; }
 
-        public QuestObjective newObjective;
-        public QuestObjective completedObjective;
-
-        // list objectives
-        /*
-        private QuestObjective 
-        {
-            name
-            description
-            isComplete
-        }
-        */
+        public QuestObjective CurrentObjective { get; set; }
+        public string Objective => CurrentObjective?.Name ?? "";
 
         void Update()
         {
             // update objectives
         }
 
-        void AddObjective()
-        {
-            objectives.Add(newObjective);
-
-        }
-
         bool IsComplete()
         {
             return false;
-        }
-
-        void RemoveObjective()
-        {
-            objectives.Remove(completedObjective);
         }
 
         void UpdateObjectives()

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using MonoGame.ShopSystem;
 using Nez;
 using Nez.AI.BehaviorTrees;
 using Nez.AI.GOAP;
@@ -64,7 +65,7 @@ namespace MonoGame
             groundTexture = Scene.Content.Load<Texture2D>("Ground");
             exitTexture = Scene.Content.Load<Texture2D>("Exit");
             // ADDED
-            //shopTexture = Scene.Content.Load<Texture2D>("Shop");
+            shopTexture = Scene.Content.Load<Texture2D>("Shop");
 
             MapStyle();
 
@@ -556,9 +557,8 @@ namespace MonoGame
                         addTile(groundTexture, tilePosition);
                         break;
                     case 11:
-                        //Shop shop = new Shop();
+                        Shop shop = new Shop();
                         addTile(shopTexture, tilePosition);
-                        //ItemsInScene.Add(shop);
                         break;
                 }
             }

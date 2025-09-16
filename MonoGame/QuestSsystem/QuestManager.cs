@@ -1,9 +1,7 @@
-﻿using System;
+﻿using Nez;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace MonoGame.QuestSsystem
 {
@@ -14,7 +12,24 @@ namespace MonoGame.QuestSsystem
         public List<Quest> currentQuests = new List<Quest>();
         public List<Quest> completedQuests = new List<Quest>();
 
+        public override void OnAddedToEntity()
+        {
+            Debug.Log("QuestManager: OnOnAddedToEntity");
 
+            base.OnAddedToEntity();
 
+            // test quest
+            currentQuests.Add(new Quest
+            {
+                Name = "Slayer",
+                Description = "Improve in combat",
+                CurrentObjective = new QuestObjective { Name = "Kill 1 enemy" },
+                IsCompleted = false
+            });
+
+            // UI
+            var questUI = Entity.AddComponent(new Quest_UI());
+            questUI.UpdateQuests(currentQuests);
+        }
     }
 }

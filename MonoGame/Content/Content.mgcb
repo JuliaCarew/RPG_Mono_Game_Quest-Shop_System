@@ -121,6 +121,18 @@
 /processorParam:TextureFormat=Color
 /build:Player.png
 
+#begin Shop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Shop.png
+
 #begin Spider.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -144,3 +156,4 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Wall.png
+

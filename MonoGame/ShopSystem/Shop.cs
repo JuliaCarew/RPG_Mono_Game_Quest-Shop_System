@@ -19,6 +19,7 @@ namespace MonoGame.ShopSystem
 
             // reference LoadTexture from Item class
             // place in grid array (3 since there's 3 items)
+            Name = "Shop";
 
         }
         public override void Death()

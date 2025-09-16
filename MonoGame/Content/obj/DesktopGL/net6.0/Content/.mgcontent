@@ -13,10 +13,12 @@
     <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Heal.png</File>
     <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Lightning.png</File>
     <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Player.png</File>
+    <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Shop.png</File>
     <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Spider.png</File>
     <File>E:/NSCC/Procedural Generation/Emergen t Behavior/RPG_Mono_Game_Quest-Shop_System/MonoGame/Content/Wall.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
