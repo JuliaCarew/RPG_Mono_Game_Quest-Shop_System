@@ -1,24 +1,51 @@
 ﻿using Nez;
 using Nez.UI;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MonoGame.ShopSystem
 {
-    // has item icons, purchase button window behind those, Shop text
-    // item icons
-    // item cost
-    // item name
-    // purchase button
-    // text saying 'SHOP'
     internal class Shop_UI : UICanvas
     {
-        public Table inventoryIcons;
+        ShopInventory shopInventory;
+        Player player;
 
-        // fill icons out 
+        public Shop_UI(ShopInventory shopInventory, Player player)
+        {
+            this.shopInventory = shopInventory;
+            this.player = player;
 
+            BuildUI();
+        }
+
+        void BuildUI()
+        {
+            var skin = Skin.CreateDefaultSkin();
+            var style = skin.Get<TextButtonStyle>();
+
+            var table = new Table();
+            table.SetFillParent(true);
+
+            // display each item as a button
+            for (int i = 0; i < shopInventory.shopInventory.Count; i++)
+            {
+                int index = i;
+                var item = shopInventory.shopInventory[i];
+
+                var btn = new TextButton(item.Name, skin);
+                btn.OnClicked += b =>
+                {
+                    // when clicked, buy the item
+                    shopInventory.BuyItem(index, player);
+                    Stage.GetRoot().ClearChildren(); // rebuild UI after buying
+                    BuildUI();
+                };
+
+                table.Add(btn).Pad(10);
+                table.Row();
+            }
+
+            Stage.AddElement(table);
+        }
     }
 }

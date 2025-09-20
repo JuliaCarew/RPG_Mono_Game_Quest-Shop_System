@@ -91,21 +91,24 @@ namespace Nez.ParticleDesigner
 						{
 							stream.CopyTo(mem);
 
-							var bitmap = System.Drawing.Image.FromStream(mem) as System.Drawing.Bitmap;
-							var colors = new Color[bitmap.Width * bitmap.Height];
+							var texture = Texture2D.FromStream(Core.GraphicsDevice, mem);
 
-							for (var x = 0; x < bitmap.Width; x++)
+							var colors = new Color[texture.Width * texture.Height];
+
+							texture.GetData(colors);
+
+							for (var x = 0; x < texture.Width; x++)
 							{
-								for (var y = 0; y < bitmap.Height; y++)
+								for (var y = 0; y < texture.Height; y++)
 								{
-									var drawColor = bitmap.GetPixel(x, y);
-									colors[x + y * bitmap.Width] = new Color(drawColor.R, drawColor.G, drawColor.B, drawColor.A);
+									var drawColor = colors[x + y * texture.Width];
+									colors[x + y * texture.Width] = new Color(drawColor.R, drawColor.G, drawColor.B, drawColor.A);
 								}
 							}
 
-							var texture = new Texture2D(Core.GraphicsDevice, bitmap.Width, bitmap.Height);
-							texture.SetData(colors);
-							config.Sprite = new Textures.Sprite(texture);
+							var textures = new Texture2D(Core.GraphicsDevice, texture.Width, texture.Height);
+							textures.SetData(colors);
+							config.Sprite = new Textures.Sprite(textures);
 						}
 					}
 				}

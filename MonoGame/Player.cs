@@ -1,21 +1,25 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using MonoGame.ShopSystem;
 using Nez;
 using Nez.Sprites;
 using Nez.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MonoGame
 {
-    public class Player : Actor
+    internal class Player : Actor
     {
         public List<Item> Inventory = new List<Item>();
 
         public InventorySystem inventorySystem;
+
+        public Shop_UI ShopUIRef;
 
         public bool isAiming;
         public Player()
@@ -37,8 +41,19 @@ namespace MonoGame
 
         public void ShopInteract()
         {
-            // create instance of shop
-            // include interaction button recognizing, or just open when on it and close when moving.
+            if(ShopUIRef == null) return;
+
+            // toggle the UI visible/hidden
+            ShopUIRef.Enabled = !ShopUIRef.Enabled;
+
+            if (ShopUIRef.Enabled)
+            {
+                Debug.Log("Shop opened");
+            }
+            else
+            {
+                Debug.Log("Shop closed");
+            }
         }
 
         public void AddItem(Item item)
@@ -63,7 +78,7 @@ namespace MonoGame
         }
     }
 
-    public class PlayerMovement : Movement
+    internal class PlayerMovement : Movement
     {
         Player player;
         public PlayerMovement(Player actor)
@@ -171,7 +186,7 @@ namespace MonoGame
             entity.Move(tilePosition * 16);
         }
     }
-    public class PlayerUI : UICanvas
+    internal class PlayerUI : UICanvas
     {
         private Player entity;
         public Table table;
@@ -196,7 +211,6 @@ namespace MonoGame
 
         public override void Update()
         {
-
             table.Clear();
             table.Add("[Inventory]");
             table.Row();
