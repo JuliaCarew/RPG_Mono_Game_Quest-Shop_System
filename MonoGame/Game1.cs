@@ -22,15 +22,6 @@ namespace MonoGame
         {
             base.Initialize();
 
-            var shopEntity = CreateEntity("Shop");
-            var shopInventory = shopEntity.AddComponent(new ShopInventory());
-            shopInventory.InitializeShop(this);
-
-            // UI hidden by default
-            var shopUIEntity = CreateEntity("ShopUI");
-            var shopUI = shopUIEntity.AddComponent(new Shop_UI(shopInventory, player)); 
-            shopUI.Enabled = false; 
-
             Scene = new MainMenu();
         }
     }

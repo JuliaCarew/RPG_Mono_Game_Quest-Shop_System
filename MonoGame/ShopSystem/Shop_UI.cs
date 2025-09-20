@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MonoGame.ShopSystem
 {
-    internal class Shop_UI : UICanvas
+    public class Shop_UI : UICanvas
     {
         ShopInventory shopInventory;
         Player player;

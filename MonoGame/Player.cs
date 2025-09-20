@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace MonoGame
 {
-    internal class Player : Actor
+    public class Player : Actor
     {
         public List<Item> Inventory = new List<Item>();
 
@@ -78,7 +78,7 @@ namespace MonoGame
         }
     }
 
-    internal class PlayerMovement : Movement
+    public class PlayerMovement : Movement
     {
         Player player;
         public PlayerMovement(Player actor)
@@ -98,7 +98,7 @@ namespace MonoGame
             
         }
 
-        public override void InteractOrMove(Vector2 targetPosition)
+        public override void InteractOrMove(Microsoft.Xna.Framework.Vector2 targetPosition)
         {
             Debug.Log("Map level");
             Debug.Log(map.Level);
@@ -186,7 +186,7 @@ namespace MonoGame
             entity.Move(tilePosition * 16);
         }
     }
-    internal class PlayerUI : UICanvas
+    public class PlayerUI : UICanvas
     {
         private Player entity;
         public Table table;

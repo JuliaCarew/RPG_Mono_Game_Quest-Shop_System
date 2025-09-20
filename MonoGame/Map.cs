@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace MonoGame
 {
@@ -557,7 +558,15 @@ namespace MonoGame
                         addTile(groundTexture, tilePosition);
                         break;
                     case 11:
-                        Shop shop = new Shop();
+                        //var shopEntity = scene.CreateEntity("Shop");
+                        //var shopInventory = shopEntity.AddComponent(new ShopInventory());
+                        //shopInventory.InitializeShop(this);
+
+                        // UI hidden by default
+                        //var shopUIEntity = scene.CreateEntity("ShopUI");
+                        //var shopUI = shopUIEntity.AddComponent(new Shop_UI(shopInventory, player));
+                        //shopUI.Enabled = false;
+
                         addTile(shopTexture, tilePosition);
                         break;
                 }

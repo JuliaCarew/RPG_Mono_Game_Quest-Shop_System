@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace MonoGame.ShopSystem
 {
     // list of in-game items with price amounts as int UI and names as text under them
-    internal class ShopInventory : Component
+    public class ShopInventory : Component
     {
         public List<Item> shopInventory { get; private set; }  = new List<Item>();
 
