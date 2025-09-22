@@ -1,51 +1,62 @@
 ﻿using Nez;
 using Nez.UI;
 using System;
-using System.Linq;
 
 namespace MonoGame.ShopSystem
 {
-    public class Shop_UI : UICanvas
+    public class Shop_UI : Scene
     {
-        ShopInventory shopInventory;
-        Player player;
+        private ShopInventory _shopInventory;
+        private Player _player;
 
         public Shop_UI(ShopInventory shopInventory, Player player)
         {
-            this.shopInventory = shopInventory;
-            this.player = player;
-
-            BuildUI();
+            _shopInventory = shopInventory;
+            _player = player;
         }
 
-        void BuildUI()
+        public override void Initialize()
         {
+            base.Initialize();
+            // Create a full-screen Stage and add to Scene
+            var uiEntity = CreateEntity("ui");
+            var canvas = uiEntity.AddComponent(new UICanvas());
+
+            var stage = canvas.Stage;
+
             var skin = Skin.CreateDefaultSkin();
-            var style = skin.Get<TextButtonStyle>();
 
             var table = new Table();
             table.SetFillParent(true);
+            stage.AddElement(table);
 
-            // display each item as a button
-            for (int i = 0; i < shopInventory.shopInventory.Count; i++)
+            // build shop buttons
+            BuildUI(table, stage, skin);
+        }
+
+        private void BuildUI(Table table, Stage stage, Skin skin)
+        {
+            table.Clear();
+
+            table.Add(new Label("Shop", skin)).Pad(10);
+            table.Row();
+
+            int itemCount = Math.Min(3, _shopInventory.shopInventory.Count);
+            for (int i = 0; i < itemCount; i++)
             {
                 int index = i;
-                var item = shopInventory.shopInventory[i];
+                var item = _shopInventory.shopInventory[i];
 
                 var btn = new TextButton(item.Name, skin);
                 btn.OnClicked += b =>
                 {
-                    // when clicked, buy the item
-                    shopInventory.BuyItem(index, player);
-                    Stage.GetRoot().ClearChildren(); // rebuild UI after buying
-                    BuildUI();
+                    _shopInventory.BuyItem(index, _player);
+                    BuildUI(table, stage, skin); // rebuild UI
                 };
 
                 table.Add(btn).Pad(10);
                 table.Row();
             }
-
-            Stage.AddElement(table);
         }
     }
 }

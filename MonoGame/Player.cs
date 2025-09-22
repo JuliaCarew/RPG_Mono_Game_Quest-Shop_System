@@ -43,17 +43,10 @@ namespace MonoGame
         {
             if(ShopUIRef == null) return;
 
-            // toggle the UI visible/hidden
-            ShopUIRef.Enabled = !ShopUIRef.Enabled;
-
-            if (ShopUIRef.Enabled)
-            {
-                Debug.Log("Shop opened");
-            }
-            else
-            {
-                Debug.Log("Shop closed");
-            }
+            Debug.Log("Shop opened");
+            var shopInventory = new ShopInventory();
+            Core.Scene = new Shop_UI(shopInventory, this);
+            GameEvents.OnShopReached();
         }
 
         public void AddItem(Item item)
@@ -67,6 +60,7 @@ namespace MonoGame
                 Debug.Log(Inventory.Count);
                 //item.Owner = this;
                 Inventory.Add(item);
+                GameEvents.OnItemCollected(item);
             }
         }
         public override void Death()

@@ -1,6 +1,7 @@
 ﻿using Nez;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 
 namespace MonoGame.QuestSsystem
@@ -21,15 +22,77 @@ namespace MonoGame.QuestSsystem
             // test quest
             currentQuests.Add(new Quest
             {
-                Name = "Slayer",
-                Description = "Improve in combat",
-                CurrentObjective = new QuestObjective { Name = "Kill 1 enemy" },
-                IsCompleted = false
+                Name = "First Blood",
+                Description = "Kill 3 enemies",
+                objective = new QuestObjective(objectiveType.kill, "Kill 3 enemies", 3)
             });
+
+            currentQuests.Add(new Quest
+            {
+                Name = "Collector",
+                Description = "Pick up 5 items",
+                objective = new QuestObjective(objectiveType.collect, "Collect 5 items", 5)
+            });
+
+            currentQuests.Add(new Quest
+            {
+                Name = "Champion",
+                Description = "Complete the game",
+                objective = new QuestObjective(objectiveType.complete, "Complete the game")
+            });
+
+            GameEvents.EnemyKilled += OnEnemyKilled;
+            GameEvents.ItemCollected += OnItemCollected;
+            GameEvents.GameCompleted += OnGameCompleted;
 
             // UI
             var questUI = Entity.AddComponent(new Quest_UI());
             questUI.UpdateQuests(currentQuests);
         }
+
+        void OnEnemyKilled(Enemy e)
+        {
+            UpdateObjectives(objectiveType.kill);
+        }
+
+        void OnItemCollected(Item i)
+        {
+            UpdateObjectives(objectiveType.collect);
+        }
+
+        void OnGameCompleted()
+        {
+            UpdateObjectives(objectiveType.complete);
+        }
+
+        void UpdateObjectives(objectiveType type)
+        {
+            foreach (var quest in currentQuests.ToList())
+            {
+                if (quest.objective.type == type && !quest.objective.IsCompleted)
+                {
+                    quest.objective.Increment();
+
+                    if (quest.objective.IsCompleted)
+                    {
+                        completedQuests.Add(quest);
+                    }
+                }
+            }
+
+            var questUI = Entity.GetComponent<Quest_UI>();
+            if (questUI != null)
+                questUI.UpdateQuests(currentQuests);
+        }
+
+        public override void OnRemovedFromEntity()
+        {
+            GameEvents.EnemyKilled -= OnEnemyKilled;
+            GameEvents.ItemCollected -= OnItemCollected;
+            GameEvents.GameCompleted -= OnGameCompleted;
+            base.OnRemovedFromEntity();
+        }
     }
+
+  
 }

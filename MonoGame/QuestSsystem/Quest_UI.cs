@@ -16,7 +16,7 @@ namespace MonoGame.QuestSsystem
         // follow event in manager script to update UI
         // display current quest window (different text per quest, include quest name & objective)
         // do same for completed quests
-        private Actor entity;
+        //private Actor entity;
 
         private Table questuiTable;
         private List<Quest> currentQuests = new List<Quest>();
@@ -29,6 +29,7 @@ namespace MonoGame.QuestSsystem
 
             questuiTable = new Table();
             questuiTable.SetFillParent(true);
+            questuiTable.Right().Top(); // position
 
             Stage.AddElement(questuiTable);
         }
@@ -59,15 +60,30 @@ namespace MonoGame.QuestSsystem
             foreach (var quest in currentQuests)
             {
                 string questTitle = quest.Name;
-                string objective = quest.Objective;
                 string description = quest.Description;
                 string status = quest.IsCompleted ? "Completed" : "In Progress";
 
-                questuiTable.Add(new Label($"[{status}] {questTitle}", skin)).Left();
+                string objective = quest.objective != null
+                ? $"{quest.objective.Name} ({quest.objective.progress}/{quest.objective.targetAmount})" : "";
+
+                Color statusColor = quest.IsCompleted ? Color.Green : Color.White;
+
+                // status/title label
+                var statusLabel = new Label($"[{status}] {questTitle}", skin);
+                statusLabel.SetColor(statusColor);
+                questuiTable.Add(statusLabel).Left();
                 questuiTable.Row();
-                questuiTable.Add(new Label($"- {objective}", skin)).Left();
+
+                // objective label
+                var objectiveLabel = new Label($"- {objective}", skin);
+                objectiveLabel.SetColor(statusColor);
+                questuiTable.Add(objectiveLabel).Left();
                 questuiTable.Row();
-                questuiTable.Add(new Label($"{description}", skin)).Left();
+
+                // description label
+                var descriptionLabel = new Label($"{description}", skin);
+                descriptionLabel.SetColor(statusColor);
+                questuiTable.Add(descriptionLabel).Left();
                 questuiTable.Row();
             }
         }

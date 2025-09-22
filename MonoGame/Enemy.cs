@@ -79,7 +79,8 @@ namespace MonoGame
                 Debug.Log("I am dead");
                 Map.instance.RemoveEnemy(this);
                 turnBasedSystem.RemoveActor(this);
-                
+
+                GameEvents.OnEnemyKilled(this);
             }
         }
 

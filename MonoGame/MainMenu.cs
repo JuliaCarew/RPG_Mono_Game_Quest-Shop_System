@@ -3,6 +3,7 @@ using Nez.UI;
 using Microsoft.Xna.Framework;
 using Nez.Textures;
 using System.Linq;
+using MonoGame.QuestSsystem;
 
 namespace MonoGame
 {
@@ -55,30 +56,50 @@ namespace MonoGame
         Map map;
 
         UICanvas canvas;
+        Quest_UI questUI;
+
+        QuestManager questManager;
+
+        TextField levelText;
+        TextField enemyCountText;
 
         public override void Initialize()
         {
             ClearColor = Color.Black;
 
             canvas = CreateEntity("ui").AddComponent(new UICanvas());
+            Skin skin = Skin.CreateDefaultSkin();
+
+            levelText = new TextField("", skin);
+            enemyCountText = new TextField("", skin);
+            enemyCountText.SetPosition(100, 0);
+
+            canvas.Stage.AddElement(levelText);
+            canvas.Stage.AddElement(enemyCountText);
+
+            // gameplay systems
             turnManager = new TurnManager();
             map = new Map();
-
             AddEntity(turnManager);
             AddEntity(map);
+
+            // quest manager + UI
+            var questEntity = CreateEntity("quest");
+            questManager = questEntity.AddComponent(new QuestManager());
+            questUI = questEntity.AddComponent(new Quest_UI());
+
+            // UI with quests 
+            questUI.UpdateQuests(questManager.currentQuests);
         }
 
         public override void Update()
         {
             base.Update();
-            
-            Skin skin = Skin.CreateDefaultSkin();
 
-            TextField LevelText = new TextField("Level " + map.Level, skin);
-            TextField EnemyCountText = new TextField("Enemy Count : " + map.enemies.Count, skin);
-            EnemyCountText.SetPosition(100, 0);
-            canvas.Stage.AddElement(LevelText);
-            canvas.Stage.AddElement(EnemyCountText);
+            levelText.SetText("Level " + map.Level);
+            enemyCountText.SetText("Enemy Count: " + map.enemies.Count);
+
+            questUI.UpdateQuests(questManager.currentQuests);
         }
     }
     public class GameOver : Scene

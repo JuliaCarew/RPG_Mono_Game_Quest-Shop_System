@@ -34,6 +34,7 @@ namespace MonoGame
             if (healthSystem.health == 0)
             {
                 Core.Scene = new Victory();
+                GameEvents.OnGameCompleted();
             }
         }
     }
