@@ -115,8 +115,7 @@
               "RelativeToolTip": "ShopSystem\\ShopInventory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T11:28:06.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T11:28:06.045Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "ShopSystem\\Shop_UI.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:45:41.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T14:45:41.788Z"
             },
             {
               "$type": "Document",
@@ -139,10 +137,9 @@
               "RelativeDocumentMoniker": "Map.cs",
               "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AQIAAHMBAAAAAAAAAAAAADoCAAAJAAAA",
+              "ViewState": "AQIAAHABAAAAAAAAAIBPwDoCAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T11:57:35.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T11:57:35.485Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "Item.cs",
               "ViewState": "AQIAAJcAAAAAAAAAAAAYwL0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:29:45.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T02:29:45.539Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "QuestSsystem\\QuestObjective.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:39:55.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T14:39:55.87Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "QuestSsystem\\Quest_UI.cs",
               "ViewState": "AQIAABUAAAAAAAAAAADwvzEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:48:26.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T14:48:26.628Z"
             },
             {
               "$type": "Document",
@@ -193,8 +187,7 @@
               "RelativeToolTip": "QuestSsystem\\Quest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:21:29.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:21:29.258Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "ShopSystem\\Shop.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T11:44:23.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T11:44:23.052Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "GameEvents.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:34:45.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T02:34:45.058Z"
             },
             {
               "$type": "Document",
@@ -230,7 +221,7 @@
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAAACIAAAAJAAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAALoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T11:45:28.799Z",
               "EditorCaption": ""
@@ -245,8 +236,7 @@
               "RelativeToolTip": "Actor.cs",
               "ViewState": "AQIAAF0AAAAAAAAAAAAUwHYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T15:11:42.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T15:11:42.698Z"
             },
             {
               "$type": "Document",
@@ -258,8 +248,7 @@
               "RelativeToolTip": "QuestSsystem\\QuestManager.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAywEsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:39:39.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T14:39:39.642Z"
             },
             {
               "$type": "Document",
@@ -293,8 +282,7 @@
               "ToolTip": "C:\\Users\\Julia\\.nuget\\packages\\system.drawing.common\\9.0.9\\buildTransitive\\netcoreapp2.0\\System.Drawing.Common.targets",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-22T14:58:00.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T14:58:00.704Z"
             },
             {
               "$type": "Document",
