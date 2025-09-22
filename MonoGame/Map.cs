@@ -558,14 +558,10 @@ namespace MonoGame
                         addTile(groundTexture, tilePosition);
                         break;
                     case 11:
-                        //var shopEntity = scene.CreateEntity("Shop");
-                        //var shopInventory = shopEntity.AddComponent(new ShopInventory());
-                        //shopInventory.InitializeShop(this);
-
-                        // UI hidden by default
-                        //var shopUIEntity = scene.CreateEntity("ShopUI");
-                        //var shopUI = shopUIEntity.AddComponent(new Shop_UI(shopInventory, player));
-                        //shopUI.Enabled = false;
+                        Debug.Log("Map: shop tile");
+                        var shopEntity = Scene.CreateEntity("Shop");
+                        var shopInventory = shopEntity.AddComponent(new ShopInventory());
+                        shopInventory.InitializeShop(Scene);
 
                         addTile(shopTexture, tilePosition);
                         break;

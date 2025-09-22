@@ -1,13 +1,16 @@
 ﻿using Nez;
 using Nez.UI;
 using System;
+using Microsoft.Xna.Framework;
 
 namespace MonoGame.ShopSystem
 {
-    public class Shop_UI : Scene
+    public class Shop_UI : UICanvas
     {
         private ShopInventory _shopInventory;
         private Player _player;
+        private Table _table;
+        private Skin _skin;
 
         public Shop_UI(ShopInventory shopInventory, Player player)
         {
@@ -15,47 +18,77 @@ namespace MonoGame.ShopSystem
             _player = player;
         }
 
-        public override void Initialize()
+        public override void OnAddedToEntity()
         {
-            base.Initialize();
-            // Create a full-screen Stage and add to Scene
-            var uiEntity = CreateEntity("ui");
-            var canvas = uiEntity.AddComponent(new UICanvas());
+            base.OnAddedToEntity();
+            _skin = Skin.CreateDefaultSkin();
+            _table = new Table();
+            _table.SetFillParent(true);
 
-            var stage = canvas.Stage;
+            _table.SetTouchable(Touchable.Enabled);
 
-            var skin = Skin.CreateDefaultSkin();
+            Stage.AddElement(_table);
+            BuildUI();
 
-            var table = new Table();
-            table.SetFillParent(true);
-            stage.AddElement(table);
+            Debug.Log("Shop UI added to entity");
+        }
+        
 
-            // build shop buttons
-            BuildUI(table, stage, skin);
+        public override void Update()
+        {
+            base.Update();
+
+            // debug
+            if (Input.LeftMouseButtonPressed)
+            {
+                Debug.Log($"Mouse clicked");
+            }
         }
 
-        private void BuildUI(Table table, Stage stage, Skin skin)
+        private void BuildUI()
         {
-            table.Clear();
+            _table.Clear();
 
-            table.Add(new Label("Shop", skin)).Pad(10);
-            table.Row();
+            // background
+            var background = new PrimitiveDrawable(Color.Black * 0.6f);
+            _table.SetBackground(background);
 
-            int itemCount = Math.Min(3, _shopInventory.shopInventory.Count);
-            for (int i = 0; i < itemCount; i++)
+            // shop title
+            _table.Add(new Label("Shop", _skin)).Pad(10);
+            _table.Row();
+
+            // track current currency
+            _table.Add(new Label($"Your Gold: {_player.Currency}", _skin)).Pad(10);
+            _table.Row();
+
+            // add buttons for items
+            for (int i = 0; i < Math.Min(3, _shopInventory.shopInventory.Count); i++)
             {
                 int index = i;
                 var item = _shopInventory.shopInventory[i];
+                var buttonText = $"{item.Name} - {item.Price}g";
+                var btn = new TextButton(buttonText, _skin);
 
-                var btn = new TextButton(item.Name, skin);
+                btn.SetTouchable(Touchable.Enabled);
+                Debug.Log($"Creating button: {buttonText}");
+
                 btn.OnClicked += b =>
                 {
-                    _shopInventory.BuyItem(index, _player);
-                    BuildUI(table, stage, skin); // rebuild UI
+                    Debug.Log("Shop UI: button pressed");
+                    // check if player has enough currency
+                    if (_player.SpendCurrency(item.Price))
+                    {
+                        _shopInventory.BuyItem(index, _player);
+                        BuildUI(); // rebuild UI 
+                    }
+                    else
+                    {
+                        Debug.Log("Not enough gold!");
+                    }
                 };
 
-                table.Add(btn).Pad(10);
-                table.Row();
+                _table.Add(btn).Pad(10);
+                _table.Row();
             }
         }
     }

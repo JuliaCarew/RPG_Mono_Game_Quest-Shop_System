@@ -14,6 +14,7 @@ namespace MonoGame.ShopSystem
 
         public void InitializeShop(Scene scene)
         {
+            shopInventory.Clear();
             // spawn 3 items and add them to the shop inventory
             shopInventory.Add(scene.AddEntity(new HealingPotion()) as Item);
             shopInventory.Add(scene.AddEntity(new ScrollOfFireball()) as Item);
@@ -27,6 +28,7 @@ namespace MonoGame.ShopSystem
             var item = shopInventory[index];
             // add to player inventory
             player.Inventory.Add(item);
+            Debug.Log($"Player bought {item.Name}");
 
             // remove from shop
             shopInventory.RemoveAt(index);

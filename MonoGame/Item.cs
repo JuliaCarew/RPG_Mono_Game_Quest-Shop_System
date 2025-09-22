@@ -18,6 +18,7 @@ namespace MonoGame
 
         public Vector2 tilePosition;
 
+        public int Price;
 
         public override void OnAddedToScene()
         {
@@ -46,7 +47,8 @@ namespace MonoGame
 
         public HealingPotion()
         {
-            Name = "Healing Potion"; 
+            Name = "Healing Potion";
+            Price = 5;
         }
 
         public override void OnAddedToScene()
@@ -73,6 +75,7 @@ namespace MonoGame
         {
             Name = "Scroll of Fireball";
             attackType = Actor.AttackType.Magic;
+            Price = 10;
         }
         public override void OnAddedToScene()
         {
@@ -184,6 +187,7 @@ namespace MonoGame
         {
             Name = "Scroll of Lightining";
             attackType = Actor.AttackType.Magic;
+            Price = 8;
         }
         public override void OnAddedToScene()
         {

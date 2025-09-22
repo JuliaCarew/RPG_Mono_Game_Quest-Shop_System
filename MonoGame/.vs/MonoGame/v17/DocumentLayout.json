@@ -7,63 +7,67 @@
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shop_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shop_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shopinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shopinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\gameevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:gameevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\quest_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\quest_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shopinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shopinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shop_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shop_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\shopsystem\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:shopsystem\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\quest_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\quest_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\questssystem\\questobjective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:questssystem\\questobjective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\.nuget\\packages\\system.drawing.common\\9.0.9\\buildTransitive\\netcoreapp2.0\\System.Drawing.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|solutionrelative:spider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271FEEB2-3C06-4401-A085-D79D4E9637ED}|MonoGame.csproj|e:\\nscc\\procedural generation\\emergen t behavior\\rpg_mono_game_quest-shop_system\\monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,7 +99,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -103,67 +107,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "ShopInventory.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\ShopInventory.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\ShopInventory.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\ShopInventory.cs",
+              "RelativeToolTip": "ShopSystem\\ShopInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:28:06.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shop_UI.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop_UI.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Shop_UI.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop_UI.cs",
+              "RelativeToolTip": "ShopSystem\\Shop_UI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:45:41.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
+              "RelativeDocumentMoniker": "Map.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
+              "RelativeToolTip": "Map.cs",
+              "ViewState": "AQIAAHMBAAAAAAAAAAAAADoCAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:57:35.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAYwL0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T02:29:45.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuestObjective.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestObjective.cs",
+              "RelativeDocumentMoniker": "QuestSsystem\\QuestObjective.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestObjective.cs",
+              "RelativeToolTip": "QuestSsystem\\QuestObjective.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:39:55.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Quest_UI.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest_UI.cs",
               "RelativeDocumentMoniker": "QuestSsystem\\Quest_UI.cs",
               "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest_UI.cs",
               "RelativeToolTip": "QuestSsystem\\Quest_UI.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAcwDEAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvzEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T14:48:26.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameEvents.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\GameEvents.cs",
-              "RelativeDocumentMoniker": "GameEvents.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\GameEvents.cs",
-              "RelativeToolTip": "GameEvents.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABEAAAA",
+              "DocumentIndex": 7,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest.cs",
+              "RelativeDocumentMoniker": "QuestSsystem\\Quest.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest.cs",
+              "RelativeToolTip": "QuestSsystem\\Quest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:34:45.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MainMenu.cs",
-              "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAywGUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:23:15.444Z",
+              "WhenOpened": "2025-09-16T14:21:29.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Boss.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Boss.cs",
-              "RelativeDocumentMoniker": "Boss.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Boss.cs",
-              "RelativeToolTip": "Boss.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:53:22.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Shop.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop.cs",
               "RelativeDocumentMoniker": "ShopSystem\\Shop.cs",
               "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop.cs",
               "RelativeToolTip": "ShopSystem\\Shop.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T11:44:23.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameEvents.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\GameEvents.cs",
+              "RelativeDocumentMoniker": "GameEvents.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\GameEvents.cs",
+              "RelativeToolTip": "GameEvents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T02:34:45.058Z",
               "EditorCaption": ""
             },
             {
@@ -174,92 +230,75 @@
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAQwC4AAAA0AAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T11:45:28.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Actor.cs",
+              "RelativeDocumentMoniker": "Actor.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Actor.cs",
+              "RelativeToolTip": "Actor.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAUwHYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T15:11:42.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "QuestManager.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestManager.cs",
               "RelativeDocumentMoniker": "QuestSsystem\\QuestManager.cs",
               "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestManager.cs",
               "RelativeToolTip": "QuestSsystem\\QuestManager.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAA0wEsAAAA0AAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAywEsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T14:39:39.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShopInventory.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\ShopInventory.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\ShopInventory.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\ShopInventory.cs",
-              "RelativeToolTip": "ShopSystem\\ShopInventory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "DocumentIndex": 14,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Boss.cs",
+              "RelativeDocumentMoniker": "Boss.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Boss.cs",
+              "RelativeToolTip": "Boss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T11:28:06.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T02:53:22.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Shop_UI.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop_UI.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Shop_UI.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\ShopSystem\\Shop_UI.cs",
-              "RelativeToolTip": "ShopSystem\\Shop_UI.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAkAAAA",
+              "DocumentIndex": 13,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAywGUAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:45:41.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Item.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Item.cs",
-              "RelativeDocumentMoniker": "Item.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Item.cs",
-              "RelativeToolTip": "Item.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAA0wC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:29:45.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Quest.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest.cs",
-              "RelativeDocumentMoniker": "QuestSsystem\\Quest.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\Quest.cs",
-              "RelativeToolTip": "QuestSsystem\\Quest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:21:29.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T02:23:15.444Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "QuestObjective.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestObjective.cs",
-              "RelativeDocumentMoniker": "QuestSsystem\\QuestObjective.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestObjective.cs",
-              "RelativeToolTip": "QuestSsystem\\QuestObjective.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:39:55.87Z",
+              "Title": "System.Drawing.Common.targets",
+              "DocumentMoniker": "C:\\Users\\Julia\\.nuget\\packages\\system.drawing.common\\9.0.9\\buildTransitive\\netcoreapp2.0\\System.Drawing.Common.targets",
+              "ToolTip": "C:\\Users\\Julia\\.nuget\\packages\\system.drawing.common\\9.0.9\\buildTransitive\\netcoreapp2.0\\System.Drawing.Common.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-22T14:58:00.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ParticleEmitterConfigLoader.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\Nez-master\\Nez.Portable\\Assets\\Loaders\\ParticleEmitterConfigLoader.cs",
               "RelativeDocumentMoniker": "..\\Nez-master\\Nez.Portable\\Assets\\Loaders\\ParticleEmitterConfigLoader.cs",
@@ -271,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Game1.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
@@ -283,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Enemy.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
@@ -291,12 +330,11 @@
               "RelativeToolTip": "Enemy.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAiwFIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:33:40.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T02:33:40.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Spider.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Spider.cs",
               "RelativeDocumentMoniker": "Spider.cs",
@@ -304,36 +342,11 @@
               "RelativeToolTip": "Spider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:29:49.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T02:29:49.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "System.Drawing.Common.targets",
-              "DocumentMoniker": "C:\\Users\\Julia\\.nuget\\packages\\system.drawing.common\\9.0.9\\buildTransitive\\netcoreapp2.0\\System.Drawing.Common.targets",
-              "ToolTip": "C:\\Users\\Julia\\.nuget\\packages\\system.drawing.common\\9.0.9\\buildTransitive\\netcoreapp2.0\\System.Drawing.Common.targets",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-22T02:29:51.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Map.cs",
-              "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
-              "RelativeDocumentMoniker": "Map.cs",
-              "ToolTip": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Map.cs",
-              "RelativeToolTip": "Map.cs",
-              "ViewState": "AQIAABoCAAAAAAAAAAAAwDQCAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T11:57:35.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "QuestSystem.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\QuestSsystem\\QuestSystem.cs",
               "RelativeDocumentMoniker": "QuestSsystem\\QuestSystem.cs",
@@ -345,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Movement.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Movement.cs",
               "RelativeDocumentMoniker": "Movement.cs",
@@ -357,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
               "ToolTip": "C:\\Users\\Shawn Bernard\\Desktop\\Coding\\RPG_Mono_Game\\Nez-master\\Nez.Portable\\ECS\\Scene.cs",
@@ -366,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Wizard.cs",
               "DocumentMoniker": "E:\\NSCC\\Procedural Generation\\Emergen t Behavior\\RPG_Mono_Game_Quest-Shop_System\\MonoGame\\Wizard.cs",
               "RelativeDocumentMoniker": "Wizard.cs",

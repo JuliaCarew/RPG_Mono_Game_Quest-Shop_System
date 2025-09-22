@@ -18,7 +18,7 @@ namespace MonoGame.QuestSsystem
         complete,
         none
     }
-    internal class QuestObjective //: Component, IUpdatable
+    internal class QuestObjective 
     {
         public string Name; 
         public objectiveType type; 

@@ -22,6 +22,8 @@ namespace MonoGame
         public Shop_UI ShopUIRef;
 
         public bool isAiming;
+
+        public int Currency = 100;
         public Player()
         {
             healthSystem.health = 9;
@@ -37,16 +39,61 @@ namespace MonoGame
             AddComponent(new PlayerUI(this));
             inventorySystem = GetComponent<InventorySystem>();
             LoadTexture("Player");
+            AddCurrency(100);
         }
 
         public void ShopInteract()
         {
-            if(ShopUIRef == null) return;
+            Debug.Log("Trying to open shop");
+            if (Map.instance == null || Map.instance.Scene == null)
+            {
+                Debug.Log("Map.instance or its Scene is null");
+                return;
+            }
 
-            Debug.Log("Shop opened");
-            var shopInventory = new ShopInventory();
-            Core.Scene = new Shop_UI(shopInventory, this);
-            GameEvents.OnShopReached();
+            var shopEntity = Map.instance.Scene.FindEntity("Shop");
+            if (shopEntity == null)
+            {
+                Debug.Log("No entity named 'Shop' found in the scene");
+                return;
+            }
+
+            var shopInventory = shopEntity.GetComponent<ShopInventory>();
+            if (shopInventory == null)
+            {
+                Debug.Log("'Shop' entity does not have a ShopInventory component");
+                return;
+            }
+
+            if (ShopUIRef == null)
+            {
+                var uiEntity = Scene.CreateEntity("ShopUI");
+                ShopUIRef = uiEntity.AddComponent(new Shop_UI(shopInventory, this));
+            }
+            else
+            {
+                // toggle it off and on 
+                ShopUIRef.Enabled = !ShopUIRef.Enabled;
+            }
+        }
+
+        public void AddCurrency(int amount)
+        {
+            Currency += amount;
+            Debug.Log($"Player currency: {Currency}");
+        }
+
+        public bool SpendCurrency(int amount)
+        {
+            if (Currency >= amount)
+            {
+                Currency -= amount;
+                Debug.Log($"Spent {amount}. Player currency: {Currency}");
+                return true;
+            }
+
+            Debug.Log("Not enough currency!");
+            return false;
         }
 
         public void AddItem(Item item)
@@ -60,6 +107,8 @@ namespace MonoGame
                 Debug.Log(Inventory.Count);
                 //item.Owner = this;
                 Inventory.Add(item);
+                Debug.Log($"Added {item.Name} to player inventory");
+
                 GameEvents.OnItemCollected(item);
             }
         }
@@ -89,7 +138,12 @@ namespace MonoGame
             {
                 base.Update();
             }
-            
+
+            if (Nez.Input.IsKeyPressed(Microsoft.Xna.Framework.Input.Keys.E))
+            {
+                player.ShopInteract();
+            }
+
         }
 
         public override void InteractOrMove(Microsoft.Xna.Framework.Vector2 targetPosition)
